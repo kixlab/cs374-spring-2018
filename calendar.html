@@ -1,0 +1,464 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+    body {
+    	padding-top: 70px;
+    	font-weight: normal;
+    }
+    th {
+    	font-weight: bold;
+    }
+	  th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+  	}
+  	.topic {
+
+  	}
+  	.reading {
+  		max-width: 450px;
+  	}
+  	.no-class {
+  		background-color: lightgrey;
+  	}
+    .studio {
+      background-color: #F2D3AC !important;
+    }
+  </style>
+  <title>CS374: Introduction to Human-Computer Interaction | KAIST Spring 2017</title>
+</head>
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS374: Intro to HCI</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="calendar.html">Calendar</a></li>
+        <li><a href="projects.html">Studio & Projects</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="logistics.html">Class Logistics</a></li>
+        <li><a href="gallery.html">Project Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Calendar</h3>
+	            </div>
+	            <div class="panel-body">
+	              <table class="table table-striped">
+	              	<tr>
+	              		<th>Week</th>
+	              		<th>Date</th>
+	              		<th class="class">Class / Studio</th>
+	              		<th class="lab">Pre-class Material</th>
+                    <th class="assignment">Assignment Due</th>
+	              	</tr>
+              		<tr>
+              			<td>1</td>
+              			<td>2/28 (Tue)</td>
+              			<td>Introduction & Course Info (<a href="https://www.dropbox.com/s/fvzyh5knjd7l8ft/20170228-01-Introduction.pdf?dl=0">PDF</a>)</td>
+              			<td class="reading">none</td>
+              			<td></td>
+              		</tr>
+              		<tr>
+              			<td>1</td>
+              			<td>3/2 (Thu)</td>
+              			<td>Design Thinking Workshop (<a href="https://www.dropbox.com/s/9niskfsf56mp9g9/20170302-02-DesignThinking.pdf?dl=0">PDF</a>)</td>
+              			<td class="reading">none</td>
+              			<td></td>
+              		</tr>
+                  <tr class="studio">
+                    <td>2</td>
+                    <td>3/6 (Mon)</td>
+                    <td>
+                        Tutorial #1: HTML and CSS + Git 101 (N1-111)
+                        (<a href="./assets/tutorials/tutorial1.pdf">PDF</a>)
+                        (<a href="https://youtu.be/5iYk6r2g_xQ">Video</a>)
+                    </td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3/7 (Tue)</td>
+                    <td>Learnability 1</td>
+                    <td class="reading"><a href="classes/03-Learnability-1/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3/9 (Thu)</td>
+                    <td>Learnability 2</td>
+                    <td class="reading"><a href="classes/04-Learnability-2/">reading</a></td>
+                    <td><a href="assignments.html#hw1">HW1: UI Hall of Fame and Shame</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>3</td>
+                    <td>3/13 (Mon)</td>
+                    <td>
+                      Tutorial #2: JavaScript (N1-111)
+                        (<a href="./assets/tutorials/tutorial2.pdf">PDF</a>)
+                        (<a href="https://youtu.be/zpkcVrIvDNY">Video</a>)
+                        (Code:
+                          <a href="http://codepen.io/hgshin/pen/xqrgLg">js</a>/
+                          <a href="http://codepen.io/hgshin/pen/vxZgeR">jQuery</a>
+                        )
+                    </td>
+                    <td class="reading"></td>
+                    <td><a href="projects/dp0.html">DP0: Team Formation</a></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3/14 (Tue)</td>
+                    <td>Efficiency</td>
+                    <td class="reading"><a href="classes/05-Efficiency/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3/16 (Thu)</td>
+                    <td>Safety</td>
+                    <td class="reading"><a href="classes/06-Safety/">reading</a></td>
+                    <td><a href="assignments.html#pr1">PR1</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>4</td>
+                    <td>3/20 (Mon)</td>
+                    <td><a href="projects/dp1.html">Studio #1: Needfinding</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>3/21 (Tue)</td>
+                    <td>Needfinding</td>
+                    <td class="reading"><a href="classes/07-Needfinding/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>3/23 (Thu)</td>
+                    <td>Ideation</td>
+                    <td class="reading"><a href="classes/08-Ideation/">reading</a></td>
+                    <td><a href="projects/dp1.html">DP1 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>5</td>
+                    <td>3/27 (Mon)</td>
+                    <td>Tutorial #3: Working with Data (N1-111)
+                      (<a href="./assets/tutorials/tutorial3.pdf">PDF</a>)
+                      (<a href="https://youtu.be/6UMbnA_YqkE">Video</a>)
+                      (<a href="http://codepen.io/zxzl/pen/wJxmgY">Code</a>)
+                    </td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3/28 (Tue)</td>
+                    <td>Human Abilities</td>
+                    <td class="reading"><a href="classes/09-Human-Abilities/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3/30 (Thu)</td>
+                    <td>UI Software Architecture</td>
+                    <td class="reading"><a href="classes/10-UI-Software-Architecture/">reading</a></td>
+                    <td><a href="assignments.html#pr2">PR2</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>6</td>
+                    <td>4/3 (Mon)</td>
+                    <td><a href="projects/dp2.html">Studio #2: Discovery</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4/4 (Tue)</td>
+                    <td>Prototyping 1 (In-class Paper Prototyping)</td>
+                    <td class="reading"><a href="classes/11-Prototyping-1/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4/6 (Thu)</td>
+                    <td>Prototyping 2 (In-class Paper Prototype Testing)</td>
+                    <td class="reading"><a href="classes/12-Prototyping-2/">reading</a></td>
+                    <td><a href="projects/dp2.html">DP2 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>7</td>
+                    <td>4/10 (Mon)</td>
+                    <td><a href="projects/dp3.html">Studio #3: Paper Prototyping</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>4/11 (Tue)</td>
+                    <td>User Testing</td>
+                    <td class="reading"><a href="classes/13-User-Testing/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>4/13 (Thu)</td>
+                    <td>Heuristic Evaluation</td>
+                    <td class="reading"><a href="classes/14-Heuristic-Evaluation/">reading</a></td>
+                    <td><a href="projects/dp3.html">DP3 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>8</td>
+                    <td>4/17 (Mon)</td>
+                    <td class="no-class">No class (Midterms week)</td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>4/18 (Tue)</td>
+                    <td class="no-class">No class (Midterms week)</td>
+                    <td class="reading">
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>4/20 (Thu)</td>
+                    <td class="no-class">No class (Midterms week)</td>
+                    <td class="reading">
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>9</td>
+                    <td>4/24 (Mon)</td>
+                    <td><a href="projects/dp4.html">Studio #4: Lo-Fi Prototype</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>4/25 (Tue)</td>
+                    <td>Output</td>
+                    <td class="reading"><a href="classes/15-Output/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>4/27 (Thu)</td>
+                    <td>Input</td>
+                    <td class="reading"><a href="classes/16-Input/">reading</a></td>
+                    <td><a href="projects/dp4.html">DP4 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>10</td>
+                    <td>5/1 (Mon)</td>
+                    <td>Tutorial #4: Source Control (N1-111)
+                      (<a href="./assets/tutorials/Tutorial 4.pdf">PDF</a>)
+                      (<a href="https://youtu.be/ZgbFgdj48FI">Video</a>)
+                    </td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>5/2 (Tue)</td>
+                    <td>Visual Design & Layout</td>
+                    <td class="reading"><a href="classes/17-Visual-Design/">reading 1</a>&nbsp;/&nbsp;<a href="classes/17-Layout/">reading 2</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>5/4 (Thu)</td>
+                    <td>Color & Typography</td>
+                    <td class="reading"><a href="classes/18-Color/">reading 1</a>&nbsp;/&nbsp;<a href="classes/18-Typography/">reading 2</a></td>
+                    <td>
+                    <td></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>11</td>
+                    <td>5/8 (Mon)</td>
+                    <td><a href="projects/dp5.html">Studio #5: Mid-Fi Prototype</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>5/9 (Tue)</td>
+                    <td class="no-class">No Class (Presidential Election Day)</td>
+                    <td class="reading">
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>5/11 (Thu)</td>
+                    <td>TA Meeting & Heuristic Evaluation</td>
+                    <td class="reading">none</td>
+                    <td><a href="projects/dp5.html">DP5 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>12</td>
+                    <td>5/15 (Mon)</td>
+                    <td class="no-class">No Studio</td>
+                    <td class="reading"></td>
+                    <td><a href="assignments.html#pr3">PR3</a></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>5/16 (Tue)</td>
+                    <td>Accessibility & Internationalization</td>
+                    <td class="reading"><a href="classes/20-Accessibility/">reading 1</a>&nbsp;/&nbsp;<a href="classes/20-Internationalization/">reading 2</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>5/18 (Thu)</td>
+                    <td>Social Computing & Interaction at Scale</td>
+                    <td class="reading"><a href="https://www.youtube.com/watch?v=Aszl5avDtek">video 1</a>&nbsp;/&nbsp;<a href="https://www.youtube.com/watch?v=SWvJxasiSZ8">video 2</a></td>
+                    <td></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>13</td>
+                    <td>5/22 (Mon)</td>
+                    <td><a href="projects/dp6.html">Studio #6: Hi-Fi Prototype</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>5/23 (Tue)</td>
+                    <td>Experiment Design</td>
+                    <td class="reading"><a href="classes/22-Experiment-Design/">reading</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>5/25 (Thu)</td>
+                    <td>Experiment Analysis & Intelligent UI</td>
+                    <td class="reading"><a href="classes/23-Experiment-Analysis/">reading</a></td>
+                    <td><a href="projects/dp6.html">DP6 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>14</td>
+                    <td>5/29 (Mon)</td>
+                    <td><a href="projects/dp7.html">Studio #7: User Testing</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>5/30 (Tue)</td>
+                    <td>Introduction to HCI Research (part 1)</td>
+                    <td class="reading"><a href="http://pgbovine.net/what-is-hci-research.htm">Philip Guo's blog post</a></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>6/1 (Thu)</td>
+                    <td>Introduction to HCI Research (part 2)</td>
+                    <td class="reading"><a href="https://interactions.acm.org/archive/view/may-june-2016/research-contribution-in-human-computer-interaction">Research Contributions in HCI</a></td>
+                    <td><a href="projects/dp7.html">DP7 Write-up</a></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>15</td>
+                    <td>6/5 (Mon)</td>
+                    <td><a href="projects/dp8.html">Studio #8: Iteration & Wrap-up</a></td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>6/6 (Tue)</td>
+                    <td class="no-class">No class (Memorial Day)</td>
+                    <td class="reading">
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>6/8 (Thu)</td>
+                    <td>In-class Worktime & TA Meeting</td>
+                    <td class="reading">none</td>
+                    <td></td>
+                  </tr>
+                  <tr class="studio">
+                    <td>16</td>
+                    <td>6/12 (Mon)</td>
+                    <td class="no-class">No class (Finals week)</td>
+                    <td class="reading"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>6/13 (Tue)</td>
+                    <td><a href="projects/dp8.html">Final Class: Project Showcase, Course Wrap-up</a></td>
+                    <td class="reading">none</td>
+                    <td><a href="projects/dp8.html">DP8 Write-up</a></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>6/15(Thu)</td>
+                    <td class="no-class">No class (Finals week)</td>
+                    <td class="reading">
+                    </td>
+                    <td></td>
+                  </tr>
+	              </table>
+	            </div>
+	          </div>
+	        </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>
