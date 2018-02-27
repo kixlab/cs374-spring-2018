@@ -1,5 +1,35 @@
 # 01-Intro
 
+- Class structure
+	- UI HoF
+	- Nanoquiz
+	- Main topic (examples and activities)
+	- Video Break
+	- Main topic (exmaples and activities)
+
+- Use of technology
+	- Website
+	- Piazza
+	- Hypothesis
+	- Submission
+	- No KLMS
+
+- Active learning
+	- English: I don't care
+	- Your participation is crucial
+	- Please speak up
+	- Participation is actually counted.
+		- Comments, annotations, in-class activities, etc.
+
+- Student feedback
+	- 가성비 개똥망: show grading distribution
+		- Grading from 2017: A:B:C = 34:27:13 = 46%:36%:18%
+
+- Changes from 2017
+	- More strict grading?
+
+===
+
 ## UI Hall of Fame and Shame (5)
 
 ## Usability (15)
@@ -7,6 +37,8 @@
 ## What is HCI? (10)
 
 ## Video Break (5)
+- Changed to the Vox Norman video 
+- Better edited, more engaging, more aligned with the message of the class
 
 ## Course Overview (30)
 
@@ -94,6 +126,10 @@ Scope
 - no physical
 - no server
 
+===
+
+# Postmortem
+- The Norman video worked quite well for the video break.
 
 
 
