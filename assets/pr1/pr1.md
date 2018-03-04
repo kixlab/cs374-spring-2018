@@ -37,7 +37,7 @@ You have to add a **title**(1) and a **table**(2) first. In detail,
 #### (10pt) Shape of table
 * The table should have 3 columns. 
 
-####(10pt) Table header
+#### (10pt) Table header
 * Each of the 3 columns has its own header, named ‘Country’, ‘Capital’, and ‘Answer’, respectively.
 
 #### (10pt) Row for entering answer
