@@ -65,8 +65,8 @@ Let’s give some style to components so their functions are easily recognizable
 * (5pt) Change the font-color of an incorrect entry into red.
 * (5pt) Strikethrough the wrong answer (New York in the example).
 #### (20pt) Alignment
-All elements in a column should be left aligned.
-The title and the first column should be left aligned.
+* All elements in a column should be left aligned.
+* The title and the first column should be left aligned.
 
 
 ### STEP3: Styling components-2 (50pt)
