@@ -13,7 +13,7 @@ We provide you with the starter kit, pr1.zip. It includes
 ## How to submit?
 - Compress your code into `studentnumber_pr1.zip`. Please do not create any subfolders.
 - Then upload the zip file to the course KLMS until the due date stated above.
-- Late policy in course webpage will be applied.
+- [Late policy](logistics.html#grading) in course webpage will be applied.
 
 ## How to test my code before submitting it?
 - TAs will evaluate your code using the latest Chrome for OSX. We expect no browser compatibility issue in this assignment (we're not making a cutting-edge web application), but please test your code in your platform's Chrome before submission.
@@ -21,7 +21,7 @@ We provide you with the starter kit, pr1.zip. It includes
 
 ## Where to ask question?
 - If you have questions about this assignment, please post it on our Piazza (in ‘pr1’ folder as ‘question’). TA will answer within a day.
-- If you believe your question should be kept private, please send email to hyeungshik.jung@kaist.ac.kr
+- If you believe your question should be kept private, please send email to [hyeungshik.jung@kaist.ac.kr](mailto:hyeungshik.jung@kaist.ac.kr)
 
 ## OK, what should I do?
 Your job is to build a layout of the capital quiz app based on the starter kit. Please note that we don’t implement any interactive features(input, checking answers, etc.) in this programming assignment. Points assigned to each task will be normalized for total 40 points in the final grade.
@@ -72,14 +72,14 @@ The title and the first column should be left aligned.
 ![](assets/pr1/step3.png)
 #### (10pt) Use web fonts for the title.
 * With web fonts, you can load any type of font into your web page.
-* Google Fonts is one of the most popular services. If you are new to it, this tutorial and article will be helpful.
+* [Google Fonts](fonts.google.com/) is one of the most popular services. If you are new to it, [this tutorial](https://developers.google.com/fonts/docs/getting_started) and [article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) will be helpful.
 
 #### (10pt) Align elements to the center.
 * Currently our elements are at the left of the page - let’s move them to the center as shown in the screenshot above.
 * It’s okay to wrap the content in a fixed width div. However, make sure that the title is displayed in one line (no line break).
 * Aligning content to the center is a deep topic indeed. Here are some recommended articles from course staff.
-	* The complete guide to centering a div
-	* CENTERING THINGS
+	* [The complete guide to centering a div](http://www.tipue.com/blog/center-a-div/)
+	* [CENTERING THINGS](https://www.w3.org/Style/Examples/007/center.en.html)
 
 #### (30pt) Apply styles to the table
 ![](assets/pr1/step4.png)
@@ -87,7 +87,7 @@ Let’s make our table look more like a table.
 * (15pt) Add horizontal borders
 	* (5pt) No border for the uppermost border (above the header).
 	* (5pt) Style is up to you, but there shouldn’t be any vertical borders between borders.
-	* (5pt) The borders should not be separated(You will find a CSS property called border-collapse(link) useful).
+	* (5pt) The borders should not be separated(You will find a CSS property called border-collapse[link](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse) useful).
 * (10pt) Add paddings
 	* Add 5px of padding to every cell in the table.
 * (5pt) Apply different styles to the border below the header and other borders.
