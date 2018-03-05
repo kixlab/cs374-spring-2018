@@ -24,7 +24,8 @@ We provide you with the starter kit, pr1.zip. It includes
 - If you believe your question should be kept private, please send email to [hyeungshik.jung@kaist.ac.kr](mailto:hyeungshik.jung@kaist.ac.kr)
 
 ## OK, what should I do?
-Your job is to build a layout of the capital quiz app based on the starter kit. Please note that we don’t implement any interactive features(input, checking answers, etc.) in this programming assignment. Points assigned to each task will be normalized for total 40 points in the final grade.
+Your job is to build a layout of the capital quiz app based on the starter kit. Please note that we don’t implement any interactive features(input, checking answers, etc.) in this programming assignment. 
+Points assigned to each task will be normalized for total 40 points in the final grade.
 
 
 ### STEP1: Add basic components (60pt)
@@ -60,10 +61,10 @@ Let’s give some style to components so their functions are easily recognizable
 #### (10pt) Correct past entry
 * (5pt) Change the font-color of correct entry into blue.
 * (5pt) Change ‘CORRECT’ in answer column to a check icon. You can easily insert icons by using libraries like FontAwesome, without inserting images. FontAwesome is included in index.html. Check this link to learn how to use it.
-* (10pt) Incorrect past entry
+#### (10pt) Incorrect past entry
 * (5pt) Change the font-color of an incorrect entry into red.
 * (5pt) Strikethrough the wrong answer (New York in the example).
-* (20pt) Alignment
+#### (20pt) Alignment
 All elements in a column should be left aligned.
 The title and the first column should be left aligned.
 
