@@ -1,9 +1,5 @@
 # 02-Design Thinking Workshop
 
-name cards
-
-CS374 Project: how to host my interface?
-
 # Pre-class prep
 - one print out for everyone
 - pairing: call partner A and B
@@ -15,11 +11,15 @@ CS374 Project: how to host my interface?
 
 
 # Admin
-- Course sign-up form 
+- Course website
+- Course sign-up form: if you haven't already, talk to me
 - Piazza sign-up
-- HW1 next Thu (3/9)
-- 1st tutorial next Mon (3/6)
-- Teams? (3/13 mon)
+- HW1 due Thu (3/8)
+- DP0 due Fri (3/9)
+	- team size: 3 or 4. Use Piazza. Will give some time on Thu.
+- Reading
+	- hypothesis. ID: should include real name or send us your ID
+
 
 # UI HOFS
 
@@ -149,4 +149,8 @@ SLIDES
 # Video Break
 
 # Part 2
+
+===
+
+# Postmortem
 
