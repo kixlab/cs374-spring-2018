@@ -235,8 +235,7 @@
                             <a name="pr1"></a>
                             <h3 class="panel-title">Programming 1</h3>
                         </div>
-                        <div class="panel-body" id="pr1-body">
-
+                        <div class="panel-body markdown" data-markdown="assets/pr1/pr1.md">
                         </div>
                     </div>
                 </div>
@@ -662,7 +661,6 @@
             })
 
             function renderMarkdown(markdownURL, $dom) {
-                var text = null;
                 $.ajax({
                     url: markdownURL,
                     type: 'get',
@@ -674,8 +672,10 @@
                 });
             }
 
-            var pr1MD = "assets/pr1/pr1.md"
-            renderMarkdown(pr1MD, $("#pr1-body"))
+            $(".markdown").each(function() {
+                var markdownURL = $(this).data("markdown")
+                renderMarkdown(markdownURL, $(this))
+            })
         });
     </script>
 </body>
