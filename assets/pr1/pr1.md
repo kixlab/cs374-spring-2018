@@ -32,8 +32,11 @@ Points assigned to each task will be normalized for total 40 points in the final
 ![](assets/pr1/step1.png)
 
 You have to add a **title**(1) and a **table**(2) first. In detail,
-#### (10pt) Title
+#### (5pt) Title
 * Your title’s font-size should be bigger than other texts below. 
+
+#### (5pt) Title of webpage
+* Currently the title of the webpage is 'capital game'. Please change the page's title to '(yourstudentnumber) (yourname)', as in the third screenshot.
 
 #### (10pt) Shape of table
 * The table should have 3 columns. 
@@ -60,7 +63,7 @@ Let’s give some style to components so their functions are easily recognizable
 
 #### (10pt) Correct past entry
 * (5pt) Change the font-color of correct entry into blue.
-* (5pt) Change ‘CORRECT’ in answer column to a check icon. You can easily insert icons by using libraries like FontAwesome, without inserting images. FontAwesome is included in index.html. Check this link to learn how to use it.
+* (5pt) Change ‘CORRECT’ in answer column to a check icon. You can easily insert icons by using libraries like FontAwesome, without inserting images. FontAwesome is included in index.html. Check this [link](https://fontawesome.com/how-to-use/web-fonts-with-css) to learn how to use it.
 #### (10pt) Incorrect past entry
 * (5pt) Change the font-color of an incorrect entry into red.
 * (5pt) Strikethrough the wrong answer (New York in the example).
