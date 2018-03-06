@@ -6,13 +6,13 @@
 How many capitals of countries do you know? Throughout three programming assignments, we will build a simple quiz game with various countries and their capitals. For PR1, we will design a layout of the game using HTML / CSS.
 
 ## Where to start from?
-We provide you with the starter kit, pr1.zip. It includes
+We provide you with the starter kit, [pr1.zip](assets/pr1/pr1.zip). It includes
 - `capital_game.css`: a skeleton stylesheet for your CSS code.
 - `index.html`: a skeleton HTML file for your HTML elements. capital_game.css above is included.
 
 ## How to submit?
 - Compress your code into `studentnumber_pr1.zip`. Please do not create any subfolders.
-- Then upload the zip file to the course KLMS until the due date stated above.
+- Then upload the zip file to [this link](https://www.dropbox.com/request/E8ZMsbZ6G6qwX8QsSdaB) until the due date stated above.
 - [Late policy](logistics.html#grading) in course webpage will be applied.
 
 ## How to test my code before submitting it?
@@ -20,8 +20,8 @@ We provide you with the starter kit, pr1.zip. It includes
 - If there is a browser issue between Chrome versions in different platforms, TAs will follow the behavior in the student’s platform. However, please make sure that you are not using any custom stylesheet in your Chrome.
 
 ## Where to ask question?
-- If you have questions about this assignment, please post it on our Piazza (in ‘pr1’ folder as ‘question’). TA will answer within a day.
-- If you believe your question should be kept private, please send email to [hyeungshik.jung@kaist.ac.kr](mailto:hyeungshik.jung@kaist.ac.kr)
+- If you have questions about this assignment, please post it on our Piazza (in *pr1* folder as *question*). TA will answer within a day.
+- If you believe your question should be kept private, please send email to [hyeungshik.jung@kaist.ac.kr](mailto:hyeungshik.jung@kaist.ac.kr). TA may share the question with other students.
 
 ## OK, what should I do?
 Your job is to build a layout of the capital quiz app based on the starter kit. Please note that we don’t implement any interactive features(input, checking answers, etc.) in this programming assignment. 
@@ -88,7 +88,7 @@ Let’s make our table look more like a table.
 * (15pt) Add horizontal borders
 	* (5pt) No border for the uppermost border (above the header).
 	* (5pt) Style is up to you, but there shouldn’t be any vertical borders between borders.
-	* (5pt) The borders should not be separated(You will find a CSS property called border-collapse[link](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse) useful).
+	* (5pt) The borders should not be separated(You will find a CSS property called border-collapse [link](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse) useful).
 * (10pt) Add paddings
 	* Add 5px of padding to every cell in the table.
 * (5pt) Apply different styles to the border below the header and other borders.
