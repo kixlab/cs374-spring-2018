@@ -1,19 +1,19 @@
 # 03-Learnability Part 1
 
-# Recap
+# Design Thinking Workshop Recap (1:02, 5 mins)
 - Design thinking workshop, questions to think about
 	- not a good idea to actually ask them, because it's been a while and students probably all embraced the idea through the workshop. No need to over-impose the lessons.
 	- good to simply go over the points in the question.
 
 
-# Admin
+# Admin (1:07, 5 mins)
 - First time to class? If you haven't signed up, you should talk to me after class.
 - Nanoquiz code instruction: small case
 - Team formation overview
 
 
 
-# UI HOFS (1:11)
+# UI HOFS (1:12, 7 mins)
 Award Template selection interface
 
 ## 1st screen
@@ -40,11 +40,11 @@ Here’s one way it might be redesigned.  The templates now fill a list box on t
 
 
 
-# Nanoquiz (1:18)
+# Nanoquiz (1:19)
 
 
 
-# Learning Approaches (1:21)
+# Learning Approaches (1:22, 5 mins)
 
 ## Stata trash chutes
 Ask students how they might learn to use this UI.
@@ -104,7 +104,7 @@ That's what we're trying to do in this class as well. Just doing the reading and
 
 
 # Interaction Styles 
-## Forms
+## Forms (1:27, 5 mins)
 https://www.aa.com/homePage.do?locale=en_US
 
 - live demonstration and discussion
@@ -114,30 +114,30 @@ https://www.aa.com/homePage.do?locale=en_US
 - safety: error message isn't immediate, lacks reason and suggestions for fixes
 - efficiency: expert interface? 3-character code for expert users
 
-## Direct Manipulation: Google streetview 
-- 3 mins alone, 3 mins discussion
-
-The Street View feature of Google Maps is a great example of direct manipulation in an interface. The interface allows the user to either click or click-drag to change their perspective and location in Google Maps. The interactive map gives the user a continuous visual representation of geographical data that responds rapidly, visually, and incrementally to physical mouse movements.
-
-- continuous visual representation: image stitching, sometimes awkward but mostly doesn't matter to much (for user's goal)
-- physical actions
-- rapid response
-- incremental response
-- reversible?
-
-- 3D interaction is hard: when you drag, should it look up or move forward? Many FPS games have this challenge.
-- left, right arrow not quite clear: probably okay because precision is not the most important goal for many (casual exploration not really getting highly accurate images)
+- is pre-filling with today's date the best decision?
 
 
+## Learning to talk to an agent (1:32, 10 mins)
+- learnability of chatbot
+- strategies and challenges
+	- likely lots of 
+- expectation of what is possible / not possible?
 
-# Video Break
-Xerox Star
+
+# Video Break (1:42, 10 mins)
+## Xerox Star
 - discuss some learnability breakthroughs and issues
 - seeing and pointing vs reading and remembering
 
+https://www.youtube.com/watch?v=wOAm7EiFNu8
+
+## Design principles
+https://en.wikipedia.org/wiki/Progressive_disclosure
+
+Progressive disclosure dictates that detail be hidden from users until they ask or need to see it. Thus, Star not only provides default settings, it hides settings that users are unlikely to change until users indicate that they want to change them. Implicit in this design are assumptions about which properties will be less frequently altered.
 
 
-# Conceptual Models 
+# Conceptual Models (1:52)
 
 ## Mental Model
 Conceptual model of a system = a representation of the parts of a system and how they work together
@@ -213,6 +213,23 @@ Cognitive load is something you have be aware of all the time
 
 # Diff from MIT Reading
 - removed some of the examples for in-class coverage
+
+# Diff from last year
+Replaced Direct Manipulation activity with chatbot activity
+
+## Direct Manipulation: Google streetview 
+- 3 mins alone, 3 mins discussion
+
+The Street View feature of Google Maps is a great example of direct manipulation in an interface. The interface allows the user to either click or click-drag to change their perspective and location in Google Maps. The interactive map gives the user a continuous visual representation of geographical data that responds rapidly, visually, and incrementally to physical mouse movements.
+
+- continuous visual representation: image stitching, sometimes awkward but mostly doesn't matter to much (for user's goal)
+- physical actions
+- rapid response
+- incremental response
+- reversible?
+
+- 3D interaction is hard: when you drag, should it look up or move forward? Many FPS games have this challenge.
+- left, right arrow not quite clear: probably okay because precision is not the most important goal for many (casual exploration not really getting highly accurate images)
 
 
 
