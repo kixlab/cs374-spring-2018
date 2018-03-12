@@ -1,39 +1,47 @@
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<!-- Material Design fonts -->
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
 
-		<!-- Bootstrap -->
-		<!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8" />
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
 
-		<!-- Bootstrap Material Design -->
-		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
-		<link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
-		<style>
-body {
-	padding-top: 70px;
-	font-weight: normal;
-	font-size: 14px;
-}
-	th {
-		font-weight: bold;
-	}
-	th, td {
-		font-size: 14px;
-		padding: 10px;
-		border: solid 1px lightgrey;
-	}
-	.well {
-		font-size: 16px;
-		position: relative;
-	}
-	.question {
-		margin-bottom: 20px;
-	}
-	/*  .well:after {
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+    <style>
+        body {
+            padding-top: 70px;
+            font-weight: normal;
+            font-size: 14px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            padding: 10px;
+            border: solid 1px lightgrey;
+        }
+
+        .well {
+            font-size: 16px;
+            position: relative;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        /*  .well:after {
 			content: "";
 			background: url("dist/img/task1.jpg");
 			opacity: 0.15;
@@ -47,124 +55,195 @@ body {
 			width: 100%;
 			height: 100%;
 	}*/
-	.well p {
-		font-weight: normal !important;
-	}
-	.topic {
 
-	}
-	.reading {
-		max-width: 450px;
-	}
-	.no-class {
-		background-color: lightgrey;
-	}
-	.due, .points {
-		font-weight: bold;
-	}
-	.code {
-		background-color: lightgrey;
-		color: #B0384A;
-		padding: 2px;
-		margin-bottom: 1px;
-	}
-		</style>
-		<title>CS374: Intro to HCI | KAIST Spring 2018</title>
-	</head>
-	<body>
+        .well p {
+            font-weight: normal !important;
+        }
 
+        .topic {}
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">CS374: Intro to HCI</a>
-				</div>
-				<div class="navbar-collapse collapse navbar-responsive-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="calendar.html">Calendar</a></li>
-						<li><a href="projects.html">Studio & Projects</a></li>
-						<li class="active"><a href="assignments.html">Assignments</a></li>
-						<li><a href="logistics.html">Class Logistics</a></li>
-						<!-- <li><a href="gallery.html">Project Gallery</a></li> -->
-					</ul>
-				</div>
-			</div>
-		</div>
+        .reading {
+            max-width: 450px;
+        }
+
+        .no-class {
+            background-color: lightgrey;
+        }
+
+        .due,
+        .points {
+            font-weight: bold;
+        }
+
+        .code {
+            background-color: lightgrey;
+            color: #B0384A;
+            padding: 2px;
+            margin-bottom: 1px;
+        }
+    </style>
+    <title>CS374: Intro to HCI | KAIST Spring 2018</title>
+</head>
+
+<body>
 
 
-		<div class="container-fluid main">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CS374: Intro to HCI</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Studio & Projects</a>
+                    </li>
+                    <li class="active">
+                        <a href="assignments.html">Assignments</a>
+                    </li>
+                    <li>
+                        <a href="logistics.html">Class Logistics</a>
+                    </li>
+                    <!-- <li><a href="gallery.html">Project Gallery</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<div class="well">
-						<h1>Individual Assignments</h1>
-						<ul>
-							<li><a href="#hw1">Homework 1: UI Hall of Fame and Shame</a></li>
-							<!-- <li><a href="#pr1">Programming 1</a></li> -->
-							<!-- <li><a href="#pr2">Programming 2</a></li> -->
-							<!-- <li><a href="#pr3">Programming 3</a></li> -->
-							<!-- <li><a href="#hw2">Homework 2: Heuristic Evaluation</a></li> -->
-						</ul>
-					</div>
-					<div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<div class="bs-component">
-						<div class="panel panel-primary">
-							<div class="panel-heading">
-								<a name="hw1"></a>
-								<h3 class="panel-title">Homework 1: UI Hall of Fame and Shame</h3>
-							</div>
-							<div class="panel-body">
-								<div class="due">Due: 11:59pm on 3/8 (Thu)</div>
-								<div class="points">30 points (3% of your total grade)</div>
+    <div class="container-fluid main">
 
-								<h2>What do I do?</h2>
-								In this assignment, you will find <strong>two user interface examples</strong> around you, one that you think has good usability and one that you think has bad usability. Examples don't have to be graphical user interfaces: they can be smartphone apps, websites, bathroom signs, cafe menus, car dashboards, etc. Make sure to avoid analyzing the entire service or app, but focus on particular parts of the interface that you think have noteworthy usability issues. Also, most interfaces will have good and bad aspects at the same time, so feel free to cover both sides in your analysis. But for each example, make your final decision about whether it's a good (hall of fame) or bad (hall of shame) example overall.
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <h1>Individual Assignments</h1>
+                    <ul>
+                        <li>
+                            <a href="#hw1">Homework 1: UI Hall of Fame and Shame</a>
+                        </li>
+                        <li><a href="#pr1">Programming 1</a></li>
+                        <!-- <li><a href="#pr2">Programming 2</a></li> -->
+                        <!-- <li><a href="#pr3">Programming 3</a></li> -->
+                        <!-- <li><a href="#hw2">Homework 2: Heuristic Evaluation</a></li> -->
+                    </ul>
+                </div>
+                <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>
+            </div>
+        </div>
 
-								<h2>Why do I do this?</h2>
-								We designed this assignment to give you an opportunity to (1) make observations on various user interfaces around you, and (2) apply the usability dimensions covered in class to real-world examples. You'll practice analyzing interfaces with a usability perspective. We'll feature some of the best examples from this assignment in class, and give you credit!
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bs-component">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <a name="hw1"></a>
+                            <h3 class="panel-title">Homework 1: UI Hall of Fame and Shame</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="due">Due: 11:59pm on 3/8 (Thu)</div>
+                            <div class="points">30 points (3% of your total grade)</div>
 
-								<h2>Your report</h2>
-								For each example, please report the following:
-								<ul>
-									<li>Hall of fame or shame?</li>
-									<li>One-line description of what it is</li>
-									<li>Where can it be found? (e.g., physical location, URL, name of the app)</li>
-									<li>How did you find it? You shouldn't Google "UI hall of fame or shame" and copy examples from these databases. Please find your own examples.</li>
-									<li>Analyze its usability using the dimensions covered in class: learnability, efficiency, and safety. Please feel free to discuss additional dimensions that you think are important for your example.</li>
-									<li>Screenshots and photos to effectively support your analysis</li>
-								</ul>
+                            <h2>What do I do?</h2>
+                            In this assignment, you will find
+                            <strong>two user interface examples</strong> around you, one that you think has good usability and one
+                            that you think has bad usability. Examples don't have to be graphical user interfaces: they can
+                            be smartphone apps, websites, bathroom signs, cafe menus, car dashboards, etc. Make sure to avoid
+                            analyzing the entire service or app, but focus on particular parts of the interface that you
+                            think have noteworthy usability issues. Also, most interfaces will have good and bad aspects
+                            at the same time, so feel free to cover both sides in your analysis. But for each example, make
+                            your final decision about whether it's a good (hall of fame) or bad (hall of shame) example overall.
 
-								For each example, you have a hard limit of maximum 250 words. But you may use as many screenshots and photos as you want. One-sentence captions are allowed for each visual material, and they are not counted toward the word limit.
+                            <h2>Why do I do this?</h2>
+                            We designed this assignment to give you an opportunity to (1) make observations on various user interfaces around you, and
+                            (2) apply the usability dimensions covered in class to real-world examples. You'll practice analyzing
+                            interfaces with a usability perspective. We'll feature some of the best examples from this assignment
+                            in class, and give you credit!
 
-								<h2>Grading</h2>
-								<ul>
-									<li><strong>Completeness (20%)</strong>: Cover all major usability dimensions, and include all the required components listed above in your report.</li>
-									<li><strong>Depth (20%)</strong>: Include thoughtful analysis of usability, beyond surface level observations.</li>
-									<li><strong>Clarity (20%)</strong>: The reader who sees the example for the first time should not struggle to understand your points.</li>
-									<li><strong>Visual Communication (20%)</strong>: Use visual materials effectively to communicate your idea. Add annotations and labels to refer to specific elements in an image. Include zoom-in images if needed. Make sure your text and accompanying visuals complement each other.</li>
-									<li><strong>Conciseness (20%)</strong>: Adhere to the word limit, and avoid being verbose in the description.</li>
-								</ul>
+                            <h2>Your report</h2>
+                            For each example, please report the following:
+                            <ul>
+                                <li>Hall of fame or shame?</li>
+                                <li>One-line description of what it is</li>
+                                <li>Where can it be found? (e.g., physical location, URL, name of the app)</li>
+                                <li>How did you find it? You shouldn't Google "UI hall of fame or shame" and copy examples from
+                                    these databases. Please find your own examples.</li>
+                                <li>Analyze its usability using the dimensions covered in class: learnability, efficiency, and
+                                    safety. Please feel free to discuss additional dimensions that you think are important
+                                    for your example.</li>
+                                <li>Screenshots and photos to effectively support your analysis</li>
+                            </ul>
 
-								Please make sure to read the <a href="logistics.html#collaboration">academic integrity and collaboration policy</a> of this course carefully.
+                            For each example, you have a hard limit of maximum 250 words. But you may use as many screenshots and photos as you want.
+                            One-sentence captions are allowed for each visual material, and they are not counted toward the
+                            word limit.
 
-								<h2>How do I submit?</h2>
-								(1) Make a single PDF file of your report.<br/>(2) Name it your KAIST ID (e.g., "20160001.pdf").<br/>(3) Submit it by <a href="https://www.dropbox.com/request/RselJwn97OrLLqPVHhvG">visiting this link</a>. <br/>You can submit multiple times until the deadline, and we'll use the most recent version for grading. Late days are automatically applied based on your submission time. Please ask questions about the assignment on <a href="https://piazza.com/kaist.ac.kr/spring2018/cs374/home">Piazza</a>.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-<!-- 
+                            <h2>Grading</h2>
+                            <ul>
+                                <li>
+                                    <strong>Completeness (20%)</strong>: Cover all major usability dimensions, and include all the
+                                    required components listed above in your report.</li>
+                                <li>
+                                    <strong>Depth (20%)</strong>: Include thoughtful analysis of usability, beyond surface level
+                                    observations.</li>
+                                <li>
+                                    <strong>Clarity (20%)</strong>: The reader who sees the example for the first time should not
+                                    struggle to understand your points.</li>
+                                <li>
+                                    <strong>Visual Communication (20%)</strong>: Use visual materials effectively to communicate
+                                    your idea. Add annotations and labels to refer to specific elements in an image. Include
+                                    zoom-in images if needed. Make sure your text and accompanying visuals complement each
+                                    other.</li>
+                                <li>
+                                    <strong>Conciseness (20%)</strong>: Adhere to the word limit, and avoid being verbose in the
+                                    description.</li>
+                            </ul>
+
+                            Please make sure to read the
+                            <a href="logistics.html#collaboration">academic integrity and collaboration policy</a> of this course carefully.
+
+                            <h2>How do I submit?</h2>
+                            (1) Make a single PDF file of your report.
+                            <br/>(2) Name it your KAIST ID (e.g., "20160001.pdf").
+                            <br/>(3) Submit it by
+                            <a href="https://www.dropbox.com/request/RselJwn97OrLLqPVHhvG">visiting this link</a>.
+                            <br/>You can submit multiple times until the deadline, and we'll use the most recent version for grading.
+                            Late days are automatically applied based on your submission time. Please ask questions about
+                            the assignment on
+                            <a href="https://piazza.com/kaist.ac.kr/spring2018/cs374/home">Piazza</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bs-component">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <a name="pr1"></a>
+                            <h3 class="panel-title">Programming 1</h3>
+                        </div>
+                        <div class="panel-body markdown" data-markdown="assets/pr1/pr1.md">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
 			<div class="row">
 				<div class="col-md-12">
 					<div class="bs-component">
@@ -457,7 +536,7 @@ body {
 								<div class="due">Due: 11:59pm on 5/15 (Mon)</div>
 								<div class="points">50 points (5% of your total grade) -- 230 points will be scaled to 50 points</div>
 
-								
+
 								<h2 id="intro">Intro</h2>
 								<p>In the last assignment, our capital game had a few interactive features like autocomplete, grading, and filtering. In this assignment, we will make our capital game communicate with the web, as well as make it safer from errors.</p>
 								<h2 id="where-to-start-from">Where to start from?</h2>
@@ -538,7 +617,7 @@ body {
 									<img src="./assets/pr3/undo_example.gif" class="img-responsive"/>
 								</ul>
 
-								
+
 							</div>
 						</div>
 					</div>
@@ -546,7 +625,7 @@ body {
 			</div>
 -->
 
-<!-- 			<div class="row">
+        <!-- 			<div class="row">
 				<div class="col-md-12">
 					<div class="bs-component">
 						<div class="panel panel-primary">
@@ -564,19 +643,40 @@ body {
 			</div> -->
 
 
-		</div>
+    </div>
 
-		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="dist/js/ripples.min.js"></script>
-		<script src="dist/js/material.min.js"></script>
-		<script>
-$(function () {
-	$.material.init();
-});
-		</script>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="dist/js/ripples.min.js"></script>
+    <script src="dist/js/material.min.js"></script>
+    <!-- Showdown.js to parse markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+    <script>
+        $(function () {
+            $.material.init();
 
-	</body>
+            var converter = new showdown.Converter({
+                simpleLineBreaks: true,
+            })
+
+            function renderMarkdown(markdownURL, $dom) {
+                $.ajax({
+                    url: markdownURL,
+                    type: 'get',
+                    dataType: 'html',
+                    success: function (text) {
+                        var html = converter.makeHtml(text)
+                        $dom.html(html)
+                    }
+                });
+            }
+
+            $(".markdown").each(function() {
+                var markdownURL = $(this).data("markdown")
+                renderMarkdown(markdownURL, $(this))
+            })
+        });
+    </script>
+</body>
 </html>
-
-
