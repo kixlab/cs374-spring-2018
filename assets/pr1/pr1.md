@@ -76,7 +76,7 @@ Let’s give some style to components so their functions are easily recognizable
 ![](assets/pr1/step3.png)
 #### (10pt) Use web fonts for the title.
 * With web fonts, you can load any type of font into your web page.
-* [Google Fonts](fonts.google.com/) is one of the most popular services. If you are new to it, [this tutorial](https://developers.google.com/fonts/docs/getting_started) and [article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) will be helpful.
+* [Google Fonts](http://fonts.google.com/) is one of the most popular services. If you are new to it, [this tutorial](https://developers.google.com/fonts/docs/getting_started) and [article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) will be helpful.
 
 #### (10pt) Align elements to the center.
 * Currently our elements are at the left of the page - let’s move them to the center as shown in the screenshot above.
