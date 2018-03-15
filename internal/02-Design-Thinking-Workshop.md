@@ -146,11 +146,11 @@ SLIDES
 - walk around and take photos, listen
 
 
-# Video Break
-
-# Part 2
 
 ===
 
 # Postmortem
 
+- Giving more detailed explanation about what "gift giving" means helped a lot.
+- Ran out of time. Started too late. Too much overview stuff in the beginning.
+- Had to merge iteration and building into a single session and cut down the study by a few mins.

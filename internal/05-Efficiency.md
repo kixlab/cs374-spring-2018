@@ -4,10 +4,12 @@
 
 
 # Admin
-- nanoquiz: shoutkey.com/clean
+- DP1 clarification
+  - 슬라이드에는 needs & insights 를 10개 list 할 필요 없다고 공지하도록.
+  - Need and insight need a detailed description: in the needfinding class it was covered in depth, but DP1 description didn’t give enough context. Students were confused about how need and insight differ.
+  - Go over the template in class
+  - talk about I like, I wish
 
-
-- no late submission for team project milestones
 - feedback / confirmation on the initial problem: will be sent by your mentor TA individually
 - group on Piazza will be created
 

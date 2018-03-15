@@ -217,6 +217,13 @@ Cognitive load is something you have be aware of all the time
 # Diff from last year
 Replaced Direct Manipulation activity with chatbot activity
 
+# Post Class Notes
+- Time-wise it was fine.
+- Gave enough explanation about the thermostat exercise, and saw less confusion than last year. But there were still some who didn't get it. 
+- Prepare scratch paper to all classes
+
+
+# Scratch Material
 ## Direct Manipulation: Google streetview 
 - 3 mins alone, 3 mins discussion
 
@@ -233,7 +240,3 @@ The Street View feature of Google Maps is a great example of direct manipulation
 
 
 
-# Post Class Notes
-- Time-wise it was fine.
-- Many students didn't get the thermostat exercise. Might need a better example, or give better instruction.
-- Prepare scratch paper to all classes
