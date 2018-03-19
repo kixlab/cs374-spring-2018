@@ -16,7 +16,7 @@ We provide you with the starter kit, [pr2.zip](assets/pr2/pr2.zip). It includes
 
 ## How to submit?
 - Compress your code into `studentnumber_pr2.zip`. Please do not create any subfolders.
-- Then upload the zip file to the course KLMS until the due date stated above.
+- Then upload the zip file to [this link]() until the due date stated above.
 - [Late policy](logistics.html#grading) will be applied.
 
 ## How to test my code before submitting it?
@@ -39,14 +39,11 @@ In the previous programming assignment, we placed an example question and an exa
 - (5pt) The `td` containing the question(the country's name) should have an `id` of "pr2__question" (Note that there are two underscores).
 - (5pt) The `input` for typing answer should have an `id` of "pr2__answer".
 - (5pt) The button for submitting answer should have an `id` of "pr2__submit".
-
 #### (5pt) Empty history
 There should be no example entries when the page is refreshed.
-
 #### (10pt) Random first question
 Every time the page is loaded, the initial question should be randomly selected.
 The input element for typing answer should get focus so the user can start typing as soon as the page is loaded.
-
 #### (15pt) Behaviour of the ‘See Answer’ button
 When the ‘See Answer’ button is clicked,
 - (5pt) New randomly selected question should be prompted.
@@ -59,19 +56,18 @@ Update your code so that when the user presses the ‘See Answer’ button, the 
 
 #### (10pt) Pile up previous questions and answers
 - The entry that was submitted last appears at the top of the list.
-
 #### (15pt) Style a correct entry
 - When deciding whether an entry is correct, the program only performs exact matches: differences in capitalization, blanks, etc. should be reported as incorrect answer.
 - The color of the correct entry should be blue.
 - There should be a check icon at the Answer column of a correct entry.
-
 #### (15pt) Style an incorrect entry
 - The color of the correct entry should be red.
 - Strikethrough the user’s wrong answer.
 
 ### Step 3: Add autocomplete in answer input (35pt)
 ![](assets/pr2/step3.gif)
-The input field accepts the user's guess. Use jQuery UI to make this field an autocomplete widget. In detail,
+The input field accepts the user's guess. Use jQuery UI to make this field an [autocomplete widget](https://jqueryui.com/autocomplete/#folding). In detail,
+
 #### (15pt) Start of autocomplete
 - (10pt) It should suggest the capitals in the `country_capital_pairs.js` that contain letters that the user has typed so far.
 - (5pt) The autocomplete widget should pop up when user enters **at least two** characters.
@@ -81,12 +77,14 @@ When the user selects a suggestion from the autocomplete widget by clicking or h
 - (5pt) The `input` should be cleared.
 - (5pt) The `input` should get focus again.
 - (5pt) Add the entry to the previous entry list.
+- You don't have to handle Enter-key event when no suggestion is selected.
 
 ### Step 4: Add filtering and deletion of past entries (60pt)
 ![](assets/pr2/step4.gif)
 How about showing correct or wrong past entries only? Let’s add a filter for past entries. In detail,
+
 #### (20pt) Add option elements for filter selection
-- (5pt) Add 3 option elements: ‘All’ , ‘Correct’, and ‘Wrong Only’. Their type should be radio.
+- (5pt) Add 3 input elements: ‘All’ , ‘Correct’, and ‘Wrong Only’. Their type should be radio.
 - (5pt) They should be placed in a row.
 - (5pt) They should be placed below the row with question and input.
 - (5pt) The default option is ‘All’.
