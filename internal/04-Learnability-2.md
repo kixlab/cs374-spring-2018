@@ -139,6 +139,10 @@ Status bar in a web browser as a case study
 - Too far from the actual link: not a good job of providing useful feedback about the ramification of an action. Poor learnability
 - Do we really need progress bars when page loading is fast enough with fast internet connection? But how long is long? We need to understand human perception and capabilities.
 
+JavaScript progress bar
+- sometimes in conflict with the browser progress bar?
+- what do they actually show progress of? sometimes works like scrollbar, other times loading bar.
+
 
 ## Activity: Unix Shell (4:58, 10m)
 

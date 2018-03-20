@@ -1,22 +1,15 @@
 # 05-Efficiency
 
+# Admin (10 mins)
+- DP1 clarification
+  - Need and insight need a detailed description: in the needfinding class it was covered in depth, but DP1 description didn’t give enough context. Students were confused about how need and insight differ.
+
+- Studio culture
+
 # Recap
 
 
-# Admin
-- DP1 clarification
-  - 슬라이드에는 needs & insights 를 10개 list 할 필요 없다고 공지하도록.
-  - Need and insight need a detailed description: in the needfinding class it was covered in depth, but DP1 description didn’t give enough context. Students were confused about how need and insight differ.
-  - Go over the template in class
-  - talk about I like, I wish
-
-- feedback / confirmation on the initial problem: will be sent by your mentor TA individually
-- group on Piazza will be created
-
-- 전산학부 MT, 행사 소개
-
-
-# UI HOFS
+# UI HOFS (4:13, 7 mins)
 
 This message used to appear when you tried to delete the contents of your Internet Explorer cache from inside Windows Explorer (i.e., you browse to the cache directory, select a file containing one of IE’s browser cookies, and delete it).
 Put aside the fact that the message is almost tautological (“Cookie… is a Cookie”) and overexcited (“!!”).  Does it give the user enough information to make a decision?
@@ -59,12 +52,10 @@ Aggregate many related questions in one dialog
 *  most users are likely to press Details anyway.
 
 
-# Nanoquiz
+# Nanoquiz (4:20, 3 mins)
 
 
-# Part 1
-
-## Shortcuts
+# Shortcuts (4:23)
 
 * aggregation
 * autocomplete
@@ -76,7 +67,11 @@ Aggregate many related questions in one dialog
 Covered by HOFS mostly, so don't spend extra time on this. Make sure some of these techniques are actually brought up and discussed in the HOFS.
 
 
-## Bubble Cursor
+## Fitts' Law (4:30, 10 mins)
+
+## Bubble Cursor (4:40, 2 mins)
+Just show and discuss.
+
 http://ieor.berkeley.edu/~anandk/bubbleCursor.html
 https://www.youtube.com/watch?v=JUBXkD_8ZeQ
 
@@ -86,14 +81,14 @@ How does this technique improve efficiency?
 
 
 
-# Video Break
+# Video Break (4:42, 10 mins)
 Supple: Automatic Generation of Personalizable User Interfaces
 
 - https://www.youtube.com/watch?v=B63whNtp4qc
 
 
 - alternatively: from Krzysztof's Harvard talk: https://www.youtube.com/watch?v=QEh8S7A4Cuc
-	- 7:00 - 9:30 (user context), 16:54 - 19:30 (interface demo)
+	- 7:00 - 10:15 (user context), 16:54 - 19:30 (interface demo)
 
 - in the middle, mention cost(interface) = time
 	- how quickly the user can perform a selection task
@@ -101,10 +96,8 @@ Supple: Automatic Generation of Personalizable User Interfaces
 - explore the large design space of possible interfaces and pick an "optimal" one
 
 
-# Part 2
 
-
-## KLM Modeling
+# KLM Modeling (4:52, 12 mins)
 https://kixlab.org/courses/hci/activities/klm/klm.html
 
 * predictive evaluation: predict performance without building prototype
@@ -120,7 +113,7 @@ Notes
 - Make sure to live test it on the server. Some students had "unsafe JavaScript" error in Chrome, due to https vs http mismatch.
 
   
-## Lab in the Wild
+## Lab in the Wild (5:05, 5 mins)
 Brief note on large-scale experimentation, beyond lab studies. 
 - Pros: large, diverse user population
 - Cons: noise in the data, scientific validity
@@ -136,4 +129,8 @@ Brief note on large-scale experimentation, beyond lab studies.
 - Fitts' law introduced before talking about MHP / Human Information Processing Model. Make sure to fit this in first. Perceptual fuison is also mentioned in the Fitts law part.
 - In the reading, students have provided some photos and references. Go over them all.
 - Read and incorpoate https://blog.codinghorror.com/fitts-law-and-infinite-width/
+
+# Reading
+- "Windows tries to solve this problem with a 500 ms timeout, and now we know another reason that this solution isn’t ideal: it exceeds T_p (even for the slowest value of T_p, so it destroys perceptual fusion and our sense of causality. Intentionally moving the mouse down to the next menu results in a noticeable delay)." => Seems like it's not true anymore on Windows. Problem fixed?
+
 
