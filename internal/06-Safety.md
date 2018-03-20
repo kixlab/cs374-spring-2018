@@ -1,7 +1,7 @@
 # 06-Safety
 
 # Recap
-- DP1 quick udpate
+- 
 
 # Admin
 - nanoquiz: shoutkey.com/
@@ -125,6 +125,8 @@ Write on board major kinds of undo
 
 
 # Video Break
+https://www.youtube.com/watch?v=tXkxsfXj2S0
+
 - Chronicle
 	- Play mode with video overlay
 	- Rich document editing history helps people "learn", even from other people's history
