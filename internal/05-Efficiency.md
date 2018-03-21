@@ -4,7 +4,18 @@
 - DP1 clarification
   - Need and insight need a detailed description: in the needfinding class it was covered in depth, but DP1 description didn’t give enough context. Students were confused about how need and insight differ.
 
-- Studio culture
+# Studio Experience (7 mins)
+- overall mentality about studio
+
+Studio model: motivate the idea behind having weekly studios
+
+- aligns well with iterative design
+- a way to evaluate your ideas and prototypes with constructive peer feedback
+
+the cartoon
+
+- It’s not just about being nice. It’s about being principled and systematic about your feedback. Related to the many concepts and ideas introduced in the reading and class.
+
 
 # Recap
 

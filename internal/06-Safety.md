@@ -3,12 +3,13 @@
 # Recap
 - 
 
-# Admin
-- nanoquiz: shoutkey.com/
+# Admin (5 mins)
+- DP outline for the next couple weeks
+- "Extreme users"
 - try, pair, share as one activity design pattern. also look into Weiman active learning process
 
 
-# UI HOFS
+# UI HOFS (1:07, 7 mins)
 - Google Calculator
 
 
@@ -44,10 +45,10 @@ Some nice things
 - shows formula after and during; why not show parens in after view?
 
 
-# Nanoquiz
+# Nanoquiz (1:15)
 
 
-# Kind of Error
+# Kind of Error (1:20)
 - slips (capture, description, mode), lapses, mistakes
 
 While going through the examples, put up on the board the root causes of error:
@@ -75,7 +76,7 @@ While going through the examples, put up on the board the root causes of error:
 
 
 
-# Preventing Errors
+# Preventing Errors (1:30, 7 mins)
 
 Write on board general ways to prevent error:
 
@@ -100,7 +101,7 @@ focus attention)
 	- What went wrong here?  How might we design the UI better?
 
 
-# Undo
+# Undo (1:37, 7 mins)
 Write on board major kinds of undo
 
 - cancel, exit, escape
@@ -116,22 +117,23 @@ Write on board major kinds of undo
 
 - After discussing the undo history exploration, emphasize that the mental model for undo is actually tricky, and lead into the alternative takes on Undo that Adobe has (the next 3 examples)
 
-## Activity
+## Activity (1:45, 7 mins)
 - 5 mins
-## Undo variants
+
+## Undo variants (1:52, 4 mins)
 - In Photoshop, you can do the usual stepping backward and forward in history. You can also mark a point in the past for the “history brush” and paint in what it was like then.
 - Lightroom includes view changes in its undo model – note the Undo Go To Next Photo.  So Cmd-Z actually backs up. Web browsers don't do this.  The Back history is completely different from the page's textbox editing history.
 
 
 
-# Video Break
+# Video Break (1:56, 7 mins)
 https://www.youtube.com/watch?v=tXkxsfXj2S0
 
 - Chronicle
 	- Play mode with video overlay
 	- Rich document editing history helps people "learn", even from other people's history
 
-# Error Messages
+# Error Messages (2:03, 10 mins)
 Write down good attributes
 
 - polite, non-blaming
@@ -140,11 +142,13 @@ Write down good attributes
 - restates the input
 - suggests how to fix
 
-## Activity
+## Activity ()
 - 5 mins
 
 # Usability Wrapup
 - Understanding these dimensions matters, because that's how we'll build technology that adapts to people, not the other way around.
+
+====
 
 # Diff with Reading
 Removed undo
@@ -156,6 +160,6 @@ Removed user control and freedom
 - Writing down the main dimensions on the board is a good idea.
 	- especially for the error messages, students actively participated.
 	
-
+- Fix "In the first reading" reference related to GIMP.
 
 

@@ -68,20 +68,6 @@ Interpretations
 [X] Sharing interpretations with the customer will bias the data.
 [V] Nonverbal cues confirm interpretations.
 
-# Studio Experience (7 mins)
-- postmortem after the first studio
-- overall mentality about studio
-- move to before the first studio next time
-
-Studio model: motivate the idea behind having weekly studios
-
-- aligns well with iterative design
-- a way to evaluate your ideas and prototypes with constructive peer feedback
-
-the cartoon
-
-- It’s not just about being nice. It’s about being principled and systematic about your feedback. Related to the many concepts and ideas introduced in the reading and class.
-
 
 # Where are we? (3 mins)
 - Design process
