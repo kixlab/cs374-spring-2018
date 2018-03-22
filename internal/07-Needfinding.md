@@ -14,7 +14,7 @@ Nanoquiz
 - close laptop / smartphone after you submit
 
 
-# UI HOFS
+# UI HOFS (4:03, 7 mins)
 Tabbed Browsing
 Today’s candidate for the User Interface Hall of Fame is tabbed browsing, a feature found in almost all web browsers. With tabbed browsing, multiple browser windows are grouped into a single top-level window and accessed by a row of tabs. You can open a hyperlink in a new tab by choosing that option from the right-click menu.
 
@@ -49,7 +49,7 @@ Picking an item from the menu will make it appear as a tab – replacing one of 
 
 The key problem with this pulldown menu is that it completely disregards the natural, spatial mapping that tabs provide. The menu’s order is unrelated to the order of the visible tabs; instead, the menu is alphabetical, but the tabs themselves are listed in order of recent use. If you choose a hidden tab, it replaces the least recently used visible tab. LRU is a great policy for caches. Is it appropriate for frequently-accessed menus? Probably not, because it interferes with users’ spatial memory.
 
-# Nanoquiz
+# Nanoquiz (4:10, 3 mins)
 
 Which of the following are signals of abstraction?
 [V] We usually
@@ -69,12 +69,13 @@ Interpretations
 [V] Nonverbal cues confirm interpretations.
 
 
-# Where are we? (3 mins)
+# Where are we? (4:14, 3 mins)
 - Design process
 - Usability ==> Design Process
 
+# Contextual Inquiry Review (4:17, 3 mins)
 
-# Activity: TODO Contextual Inquiry (8 mins)
+# Activity: TODO Contextual Inquiry (4:20, 10 mins)
 
 - 2 min interview, 1 min write-up
 - switch
@@ -86,7 +87,7 @@ Interpretations
 - what surprises? what only came out because you "interrupted"? 
 - any interpretation that only came out because you shared interpretation?
 
-# Needfinding Techniques
+# Needfinding Techniques (4:30, 7 mins)
 
 ## Diary
 
@@ -143,12 +144,15 @@ Advantages? Disadvantages?
 How to pick the right method?
 
 
-# Video Break (5 mins)
+# Video Break (4:37, 7 mins)
 https://www.youtube.com/watch?v=emQNfA9dihU
 
 https://hci.stanford.edu/research/voice4all/
 
 Play from ~12 mins where Tap talks about DSC and Avaaj Otalo
+- skip the system details in the middle and talk over
+- jump to the actual usage examples
+- jump to 20:00 about thoughts on "representing users"
 
 Extreme users: Indian rural farmers
 
@@ -157,7 +161,9 @@ Extreme users: Indian rural farmers
 - How would you go about tackling this user population? Fieldwork.
 
 
-# Needfinding via Social Media: Namdaemun Market
+# Needfinding via Social Media: Namdaemun Market (4:45, 15 mins)
+
+https://www.tripadvisor.com/Attraction_Review-g294197-d324907-Reviews-Namdaemun_Market-Seoul.html
 
 ## Exercise 1 (5 mins work, 2 mins discussion)
 
@@ -203,6 +209,11 @@ From actual class
 - Cons: indirectness, bias, controversial / divided opinions (but I pointed out this could be a good thing and that's why thinking about different user classes might be a good idea), population bias (young, tech-savvy, tourists rather than regular visitors who are less likely to write a review), emotional / polarized reviews
 
 
+# Teamwork (5:00, 15 mins)
+- Keep iterating on the DP1 results.
+
+===
+
 # Diff with Reading
 
 
@@ -218,5 +229,5 @@ Scott's video
 => include these in the reading, and add a high-level comparison of all these methods, helping students decide which method to use under which circumstance.
 
 Both activities worked quite well. Keep them.
-
+- In the Namdaemun activity, make sure to say that stage 3 should focus on a particular user class and ideas to support this group in particular.
 

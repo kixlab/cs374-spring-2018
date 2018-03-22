@@ -176,6 +176,7 @@ Try searching for different information types
 
 # Post Class Notes
 - students really liked Draco 
+- db.vu doesn't support keyboard input on mobile / tablet.
 
 ===
 

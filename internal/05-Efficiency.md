@@ -141,6 +141,8 @@ Brief note on large-scale experimentation, beyond lab studies.
 - In the reading, students have provided some photos and references. Go over them all.
 - Read and incorpoate https://blog.codinghorror.com/fitts-law-and-infinite-width/
 
+- Most interactive examples don't work on mobile... Quite a few people are disengaged...
+
 # Reading
 - "Windows tries to solve this problem with a 500 ms timeout, and now we know another reason that this solution isn’t ideal: it exceeds T_p (even for the slowest value of T_p, so it destroys perceptual fusion and our sense of causality. Intentionally moving the mouse down to the next menu results in a noticeable delay)." => Seems like it's not true anymore on Windows. Problem fixed?
 

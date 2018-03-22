@@ -142,8 +142,7 @@ Write down good attributes
 - restates the input
 - suggests how to fix
 
-## Activity ()
-- 5 mins
+## Activity (2:05, 5 mins)
 
 # Usability Wrapup
 - Understanding these dimensions matters, because that's how we'll build technology that adapts to people, not the other way around.
