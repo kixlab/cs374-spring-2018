@@ -3,20 +3,20 @@
  -- 160 points will be scaled to 40 points
 
 ## Intro
-In the last assignment, we built a layout of the capital quiz game. For PR2, we will implement interactive features of our game using JavaScript based on the the layout you built.
+In the last assignment, we built a layout of the capital quiz game. For PR2, we will implement interactive features of our game using JavaScript based on the layout you built.
 
 
 ## Where to start from?
 We provide you with the starter kit, [pr2.zip](assets/pr2/pr2.zip). It includes
 - `jquery/`: the code for jQuery and jQuery UI, the JavaScript libraries you will be using for this assignment.
-- `country_capital_pairs.js`: an array of javascript objects that contains a pair of country and its capital.
+- `country_capital_pairs.js`: an array of JavaScript objects that contains a pair of country and its capital.
 - `capital_game.css`: a skeleton file for your user interface CSS code.
 - `capital_game.js`: a skeleton file for your user interface JS code.
-`index.html a skeleton file for your user interface HTML code.
+- `index.html`: a skeleton file for your user interface HTML code.
 
 ## How to submit?
 - Compress your code into `studentnumber_pr2.zip`. Please do not create any subfolders.
-- Then upload the zip file to [this link]() until the due date stated above.
+- Then upload the zip file to [this link](https://www.dropbox.com/request/S4WNIxwoQhKkRNlA27ck) until the due date stated above.
 - [Late policy](logistics.html#grading) will be applied.
 
 ## How to test my code before submitting it?
@@ -24,7 +24,7 @@ We provide you with the starter kit, [pr2.zip](assets/pr2/pr2.zip). It includes
 - If there is a browser issue between Chrome versions in different OS, TAs will follow the behavior in the student’s OS. However, please make sure that you are not using any custom stylesheet in your Chrome.
 - There were many questions about using the latest features of JavaScript / CSS in programming assignments. It’s okay to use those cool features if they are supported by Chrome 65. If you are not sure about the support status of the feature you wish to use, check [http://caniuse.com/](http://caniuse.com).
 
-## Where to ask question?
+## Where to ask questions?
 - If you have questions about this assignment, please post it on our Piazza (in *pr2* folder as *question*). TA will answer within a day.
 - If you believe your question should be kept private, please send email to [hyeungshik.jung@kaist.ac.kr](mailto:hyeungshik.jung@kaist.ac.kr). TA may share the question with other students.
 
@@ -46,7 +46,7 @@ Every time the page is loaded, the initial question should be randomly selected.
 The input element for typing answer should get focus so the user can start typing as soon as the page is loaded.
 #### (15pt) Behaviour of the ‘See Answer’ button
 When the ‘See Answer’ button is clicked,
-- (5pt) New randomly selected question should be prompted.
+- (5pt) A new, randomly selected question should be prompted.
 - (5pt) The input should be cleared.
 - (5pt) The input should get focus again.
 
@@ -70,14 +70,14 @@ The input field accepts the user's guess. Use jQuery UI to make this field an [a
 
 #### (15pt) Start of autocomplete
 - (10pt) It should suggest the capitals in the `country_capital_pairs.js` that contain letters that the user has typed so far.
-- (5pt) The autocomplete widget should pop up when user enters **at least two** characters.
+- (5pt) The autocomplete widget should pop up when the user enters **at least two** characters.
 #### (20pt) Selecting behaviors
 When the user selects a suggestion from the autocomplete widget by clicking or hitting the ‘Enter’ key, it should behave the same as clicking on the ‘See Answer’ button. In detail,
-- (5pt) New randomly selected question should be prompted.
+- (5pt) A new, randomly selected question should be prompted.
 - (5pt) The `input` should be cleared.
 - (5pt) The `input` should get focus again.
 - (5pt) Add the entry to the previous entry list.
-- You don't have to handle Enter-key event when no suggestion is selected.
+- You don't have to handle an Enter-key event when no suggestion is selected.
 
 ### Step 4: Add filtering and deletion of past entries (60pt)
 ![](assets/pr2/step4.gif)
