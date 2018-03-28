@@ -6,7 +6,8 @@ Prep
 - different colors of medium sized post-its (everyone gets a different color)
 - small sized post-its or stickers for voting
 - sharpies
-Each team should have
+
+Each team should have
 
 - big board
 - 3 POV sheets
@@ -19,7 +20,9 @@ Each person should have
 
 
 # Recap
-
+- Students have already done POV, persona, and HMW in studio.
+- Briefly review and give time to iterate on these elements.
+- Focus more on the solution brainstorming and storyboards.
 
 # Admin
 - nanoquiz: shoutkey.com/grow
@@ -35,31 +38,38 @@ None
 # Video Break
 None
 
-# Ideation
-## Write down needfinding results
-5 mins (1:15)
+# Ideation Workshop (4:10)
 
-## POV
-intro: 5 mins
-activity: 7 mins
+## Write down needfinding results (4:10, 5 mins)
 
-## HMW questions
+## POV (4:15, 10 mins)
 intro: 5 mins
-activity: 7 mins
+activity: 5 mins
+
+## Persona (4:25, 10 mins)
+intro: 5 mins
+activity: 5 mins
+
+## HMW questions (4:35, 15 mins with voting)
+intro: 5 mins
+activity: 5 mins
 
 ## HMW voting
 intro: 2 mins
-activity: 5 mins
+activity: 3 mins
 
-## Solution brainstorming
+## Solution brainstorming (4:50, 15 mins with voting)
 intro: 3 mins
 activity: 7 mins
 
 ## Solution voting
 activity: 5 mins
 
-## Postmortem
-3 mins
+## Storyboards (5:05, 8 mins)
+intro: 3 mins
+activity: 5 mins
+
+## Postmortem (5:13, 1 min)
 
 # Diff with Reading
 Added personas section
