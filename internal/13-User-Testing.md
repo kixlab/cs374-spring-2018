@@ -35,15 +35,32 @@ This is related to a Hall of Fame we had a little while ago: the Domino’s pizz
 # Ethics
 User Testing => Usability Testing / Interface Testing
 
-## Ghost Bustershttp://youtu.be/fn7-JZq0Yxs?t=22sStop the video right when the guy leaves the room in angerWhat did Bill Murray do wrong in this scene?Respect for person
-- not quite informed consent
+## Ghost Busters
+http://youtu.be/fn7-JZq0Yxs?t=22s
+
+Stop the video right when the guy leaves the room in anger
+
+What did Bill Murray do wrong in this scene?
+
+Respect for person
+- not quite informed consent
 - deception
 - Making participant even more stressed 
 - User should be in control, clearly not
 - User can stop at any time
-- No reason to have 2 people inoom Beneficience 
-- Not “do no harm”- Risk vs benefit to society NOT rightJustiice
-- Not FairSee Venkman, P.  “The Effect of Negative Reinforcement on ESP Ability.”  Unpublished monograph, 1984.## Emotion Contagion StudyNow let's take a look at a more recent, real-life example.
+- No reason to have 2 people inoom
+ 
+Beneficience 
+- Not “do no harm”
+- Risk vs benefit to society NOT right
+
+Justiice
+- Not Fair
+
+See Venkman, P.  “The Effect of Negative Reinforcement on ESP Ability.”  Unpublished monograph, 1984.
+
+## Emotion Contagion Study
+Now let's take a look at a more recent, real-life example.
 
 Informed consent?
 
@@ -210,4 +227,4 @@ WIZARD: https://kixlab.org/courses/hci/activities/user-testing/wizard.html
 - HOFS was fine. (1800 flowers)
 - WOZ activity worked well. Many students were quite engaged.
 
-
+- Cover the Facebook privacy debacle??
