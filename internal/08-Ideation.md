@@ -50,31 +50,34 @@ activity: 5 mins
 intro: 5 mins
 activity: 5 mins
 
-## HMW questions (4:35, 15 mins with voting)
+## HMW questions (4:35, 20 mins with voting)
 intro: 5 mins
-activity: 5 mins
+activity: 10 mins
 
 ## HMW voting
 intro: 2 mins
 activity: 3 mins
 
-## Solution brainstorming (4:50, 15 mins with voting)
+## Solution brainstorming (4:55, 13 mins with voting)
+- remind the rules of brainstorming.
+
 intro: 3 mins
 activity: 7 mins
 
 ## Solution voting
 activity: 5 mins
 
-## Storyboards (5:05, 8 mins)
-intro: 3 mins
-activity: 5 mins
+## Storyboards (5:08, 5 mins)
+intro: 5 mins
 
-## Postmortem (5:13, 1 min)
+
 
 # Diff with Reading
 Added personas section
 
 # Post Class Notes
+- didn't have enough time for solution brainstorming
+- didn't have time for storyboards (just gave students intro but no activity)
 
 https://www.youtube.com/watch?v=eg7NXRJwYXs
 
@@ -82,9 +85,9 @@ https://www.youtube.com/watch?v=eg7NXRJwYXs
 
 Students have to clear the board twice for each new phase. Ask them to take a photo of the board and clear.
 
-Setup takes 20-30 mins at least. Make sure to arrive early and put up the poster boards (전지) on the wall.
+2017: Setup takes 20-30 mins at least. Make sure to arrive early and put up the poster boards (전지) on the wall. Some had hardboards in the middle.
 
-Some groups had poster boards (하드보드지) in the middle.
+2018: Every group had a hardboard paper as their main canvas.
 
 ## contents to add / cover
 
