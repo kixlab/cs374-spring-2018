@@ -61,7 +61,7 @@ Update your code so that when the user presses the ‘See Answer’ button, the 
 - The color of the correct entry should be blue.
 - There should be a check icon at the Answer column of a correct entry.
 #### (15pt) Style an incorrect entry
-- The color of the correct entry should be red.
+- The color of the incorrect entry should be red.
 - Strikethrough the user’s wrong answer.
 
 ### Step 3: Add autocomplete in answer input (35pt)
