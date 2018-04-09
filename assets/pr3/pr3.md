@@ -63,5 +63,6 @@ Let's add the Undo feature to provide better [Safety](https://kixlab.org/courses
 
 #### Managing Undo History (40pt)
 - (20pt) The history for Undo feature should be stored in the Firebase database, and they should be remaining after the page is refreshed.
-- (20pt) Add an Reset button that, it clears all the past entries and undo histories.
+- (20pt) Add an Reset button that, it clears all the past entries and undo histories. The Reset button should have an `id` of **pr3__reset**.
 - Reset cannot be reverted, and undo should be disabled after reset.
+![](assets/pr3/undo_example.gif)
