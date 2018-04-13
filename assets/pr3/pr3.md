@@ -30,7 +30,7 @@ We provide you with the starter kit, [pr3.zip](assets/pr3/pr3.zip). It includes
 
 ### Step 1: Load country and capital data from the web (30pt)
 In the last assignment, the list of countries and their capitals was provided in `country_capital_pairs.js`, a JavaScript file which stored the list in a pairs variable. In this assignment, let's load the list from the csv file on the web. In other words, instead of loading from a file, load it from the web.
-- Retrieve the csv file from the [link](https://s3.ap-northeast-2.amazonaws.com/cs374-csv/country_capital_pairs.csv) by making a request (e.g by using [jQuery.ajax](http://api.jquery.com/jquery.ajax/)) and you should get a response.
+- Retrieve the csv file from the [link](https://s3.ap-northeast-2.amazonaws.com/cs374-csv/country_capital_pairs.csv) by making a request (e.g., by using [jQuery.ajax](http://api.jquery.com/jquery.ajax/) or [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)) and you should get a response.
 - Parse the response and save the parsed data to the `window.pairs` variable. The result should be in the same format as the pairs variable from the last assignment - a JavaScript array with objects including two keys ("country" and "capital").
 - TAs will evaluate the parsed result by inspecting the `window.pairs` variable in the browser console.
 ![](assets/pr3/check_parsed.gif)
@@ -58,11 +58,11 @@ Let's add the Undo feature to provide better [Safety](https://kixlab.org/courses
 #### Undo (40pt)
 - (20pt) Add an Undo button that, each time it is pressed, goes one step backwards in history. For example, if the user clicks Undo after entering an answer, the answer should be deleted.
 - (10pt) The Undo button should have an `id` of **pr3__undo**.
-- (10pt) The Undo button should only be enabled when that action is possible. For example, Undo should be disabled when you start the game. Use `disabled` attribute to disable button.
+- (10pt) The Undo button should only be enabled when that action is possible. For example, Undo should be disabled when you start the game. Use the `disabled` attribute to disable a button.
 - The Undo button can also undo the ‘clear’ action.
 
 #### Managing Undo History (40pt)
 - (20pt) The history for Undo feature should be stored in the Firebase database, and they should be remaining after the page is refreshed.
-- (20pt) Add an Reset button that, it clears all the past entries and undo histories. The Reset button should have an `id` of **pr3__reset**.
+- (20pt) Add a Reset button that clears all the past entries and undo history. The Reset button should have an `id` of **pr3__reset**.
 - Reset cannot be reverted, and undo should be disabled after reset.
 ![](assets/pr3/undo_example.gif)
