@@ -14,7 +14,7 @@ We provide you with the starter kit, [pr3.zip](assets/pr3/pr3.zip). It includes
 
 ## How to submit?
 - Compress your code into `studentnumber_pr3.zip`. Please do not create any subfolders.
-- Then upload the zip file to [this link]() until the due date stated above.
+- Then upload the zip file to [this link](https://www.dropbox.com/request/jPtZ2eJUy65mKt0iu3VY) until the due date stated above.
 - [Late policy](logistics.html#grading) will be applied.
 
 ## How to test my code before submitting it?
