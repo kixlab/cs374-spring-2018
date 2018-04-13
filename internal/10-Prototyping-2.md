@@ -60,9 +60,10 @@ https://www.youtube.com/watch?v=jQnfcJ8jZaU
 
 
 # Post Class Notes
+- Nanoquiz questions are probably a bit difficult / tricky.
 - In-class testing worked fine.
 - 3D printing + prototyping worked quite well.
 - Some matching difficulties occurred: need international students only, etc.
 - Some teams checked the email about bringing their paper prototypes too late. Make the announcement earlier.
-- Some students are done too quickly, have trivial tasks designed, etc. Make sure to guide them.
+
 

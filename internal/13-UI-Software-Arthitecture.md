@@ -5,8 +5,6 @@
 
 
 # Admin
-- nanoquiz: shoutkey.com/broccoli
-- Essay Placement Test: Can we move the studio to 6:45?
 
 # UI HOFS
 1:05
@@ -98,20 +96,38 @@ https://twitter.com/search?q=boston%20snow&src=typd&mode=photos
 It uses localstorage to remember your history, but there’s no server-side.
 
 ### Q1 
-(2 mins for self, 5 mins for group activity, 5 mins discussion)
+(2 mins for self, 7 mins for group activity, 5 mins discussion)
 
-Data:- https://kixlab.org/courses/hci/activities/todomvc/js/models/todo.js
-- https://kixlab.org/courses/hci/activities/todomvc/js/collections/todos.js- `title`, `order`, and `completed`- List of todo items- item: text, isDone- Number of items remaining- Number of items completed    View:
+Data:
 
-- https://kixlab.org/courses/hci/activities/todomvc/js/views/todos.js- checkbox    text element     destroy   number/id- complete count display - remaining count display- add new item textboxController:
-- events: enter on new-todo (addToModel(event, not completed)- listener: click on destory (removeFromModel- events: click on clear completed
+- https://kixlab.org/courses/hci/activities/todomvc/js/models/todo.js
+- https://kixlab.org/courses/hci/activities/todomvc/js/collections/todos.js
+- `title`, `order`, and `completed`
+- List of todo items
+- item: text, isDone
+- Number of items remaining
+- Number of items completed
+    
+View:
+
+- https://kixlab.org/courses/hci/activities/todomvc/js/views/todos.js
+- checkbox    text element     destroy   number/id
+- complete count display 
+- remaining count display
+- add new item textbox
+
+Controller:
+
+- events: enter on new-todo (addToModel(event, not completed)
+- listener: click on destory (removeFromModel
+- events: click on clear completed
 - ‘keypress #new-todo’: ‘createOnEnter’, 
 ‘click #clear-completed’: ‘clearCompleted’, 
 ‘click #toggle-all’: ‘toggleAllComplete’
 
 ### Q2
 1:40
-5 min work, 3 min discussion
+7 min work, 3 min discussion
 
 ### MVVM
 1:50
@@ -134,6 +150,14 @@ http://ecorner.stanford.edu/videos/3200/Keys-to-Creating-Awesome-Teams
 
 # Successful Teamwork
 
+## Psychological Safety
+https://www.linkedin.com/pulse/psychological-safety-central-inclusive-cultures-karen-morley
+
+https://diversity.google/ 
+
+https://hbr.org/2014/10/hacking-techs-diversity-problem 
+
+https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/ 
 
 # Diff with Reading
 
@@ -145,6 +169,11 @@ http://ecorner.stanford.edu/videos/3200/Keys-to-Creating-Awesome-Teams
 
 - The most important lesson understanding why M and V should be separated. Knowing what C does and should do is important, but various implementations of the idea keep changing.
 
+- Many students don't seem to really "get" MVC. The reading is perhaps too abstract. Might make sense to turn around the class to focus more on the code.
+- Walkthrough an implementation example might be nice.
+- Activity: Show using Chrome Inspector and show how model.js, etc. could be open to actually see the model definition.
+- Would help to explain bubble/capture in more detail and show why they matter.
+- Teamwork part worked quite well. Students were engaged.
 
-
+- 2nd part of activity: not many student submissions are correct. Need to give a concrete example so that they don't describe the behavior only at the high level but actually describes the concrete flows between M,V,C.
 

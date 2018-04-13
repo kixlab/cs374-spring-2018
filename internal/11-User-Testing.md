@@ -35,6 +35,8 @@ This is related to a Hall of Fame we had a little while ago: the Domino’s pizz
 # Ethics
 User Testing => Usability Testing / Interface Testing
 
+
+
 ## Ghost Busters
 http://youtu.be/fn7-JZq0Yxs?t=22s
 
@@ -48,16 +50,22 @@ Respect for person
 - Making participant even more stressed 
 - User should be in control, clearly not
 - User can stop at any time
-- No reason to have 2 people inoom
+- No reason to have 2 participants in the room at once
  
 Beneficience 
 - Not “do no harm”
 - Risk vs benefit to society NOT right
 
-Justiice
+Justice
 - Not Fair
 
 See Venkman, P.  “The Effect of Negative Reinforcement on ESP Ability.”  Unpublished monograph, 1984.
+
+# IRB Example
+Show an actual exmaple IRB document
+
+
+# Online Experimentation
 
 ## Emotion Contagion Study
 Now let's take a look at a more recent, real-life example.
@@ -97,50 +105,27 @@ Implications
     - "Hammering ethical protocols designed for laboratory studies onto internet experimentation is fundamentally misguided."
 
 
-### Resources
 
-The paper
-
-- http://www.pnas.org/content/111/24/8788.full
-
-Kramer's response (one of the authors)
-
-- https://www.facebook.com/akramer/posts/10152987150867796
-
-Media responses
-
-- http://www.theguardian.com/technology/2014/jun/30/facebook-emotion-study-breached-ethical-guidelines-researchers-say
-- http://www.nytimes.com/2014/08/13/technology/the-boon-of-online-data-puts-social-science-in-a-quandary.html?_r=0
-- http://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/
-- http://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html?_r=0
-- http://www.forbes.com/sites/kashmirhill/2014/07/10/after-the-freak-out-over-facebooks-emotion-manipulation-study-what-happens-now/
-
-Blogosphere
-
-- http://www.talyarkoni.org/blog/2014/06/28/in-defense-of-facebook/
-- http://www.talyarkoni.org/blog/2014/07/01/in-defense-of-in-defense-of-facebook/
-- https://medium.com/@msbernst/the-destructive-silence-of-social-computing-researchers-9155cdff659
-- https://ello.co/jayrosen/post/Ppg0VSUzxsy3mVNAQ9y5VA
-
-
-
-# IRB Example
-Show an actual exmaple IRB document
-
-# Video Break
-OmniTouch 
+# Video Break (5 mins)
+OmniTouch (2017 class)
 
 - https://www.youtube.com/watch?v=Pz17lbjOFn8
+
+SkinTrack (2018 class)
+
+- https://www.youtube.com/watch?v=9hu8MNuvCHE
+
 - talk about how user testing new tech / interaction technique might be difficult
+    - have to consider a variety of real usage context
+    - familiarity could be an issue
+    - skin moisture, clothing, ring on a different finger
 
-# Usability Testing
-1:45 
 
-## Observing usability test sessions 
-(7-10 mins)
+# Usability Testing (4:45)
 
-### Paper Prototype Testing 
-(3 mins)
+## Observing usability test sessions (7-10 mins)
+
+### Paper Prototype Testing (4:45, 4 mins)
 
 https://www.youtube.com/watch?v=9wQkLthhHKA
 
@@ -162,8 +147,8 @@ https://www.youtube.com/watch?v=9wQkLthhHKA
 
 - Paper prototype + digital printouts
 
-### Observing Think Aloud 
-(3 mins)
+### Observing Think Aloud (4:49, 4 mins)
+
 https://www.youtube.com/watch?v=-h8hUtwkMCE
 
 Let’s practice observing a user test, listening to think-aloud, and watching for critical incidents. It's a functional prototype of a controlling interface for cylinder testing.
@@ -186,8 +171,7 @@ Notes
 - It's easy to focus on getting just another data point. Apply the knowledge from the class so far (usability dimensions), etc. to "understand" what users are doing.
 
 
-## User Testing Game 
-1:55 (7 mins activity, 5 mins discussion)
+## User Testing Game (4:55, 7 mins activity, 5 mins discussion)
 
 USER: https://kixlab.org/courses/hci/activities/user-testing/user.html
 WIZARD: https://kixlab.org/courses/hci/activities/user-testing/wizard.html
@@ -222,9 +206,39 @@ WIZARD: https://kixlab.org/courses/hci/activities/user-testing/wizard.html
 
 # Post Class Notes
 - Time-wise it took the full 75 mins
+- HOFS was fine. (1800 flowers)
 - Mentioning that ethics is perhaps one of the boring, obvious topics but entails many interesting and tricky questions in practice worked quite well.
 - But need to convey the examples more interestingly. Emotion contagion + voting nudge are interesting, but perhaps I need a summarizing slide that brings up high-level insights of how to look at these large-scale experiments.
-- HOFS was fine. (1800 flowers)
+
 - WOZ activity worked well. Many students were quite engaged.
 
 - Cover the Facebook privacy debacle??
+
+
+# Supplimentary Material
+
+### Resources
+
+The paper
+
+- http://www.pnas.org/content/111/24/8788.full
+
+Kramer's response (one of the authors)
+
+- https://www.facebook.com/akramer/posts/10152987150867796
+
+Media responses
+
+- http://www.theguardian.com/technology/2014/jun/30/facebook-emotion-study-breached-ethical-guidelines-researchers-say
+- http://www.nytimes.com/2014/08/13/technology/the-boon-of-online-data-puts-social-science-in-a-quandary.html?_r=0
+- http://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/
+- http://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html?_r=0
+- http://www.forbes.com/sites/kashmirhill/2014/07/10/after-the-freak-out-over-facebooks-emotion-manipulation-study-what-happens-now/
+
+Blogosphere
+
+- http://www.talyarkoni.org/blog/2014/06/28/in-defense-of-facebook/
+- http://www.talyarkoni.org/blog/2014/07/01/in-defense-of-in-defense-of-facebook/
+- https://medium.com/@msbernst/the-destructive-silence-of-social-computing-researchers-9155cdff659
+- https://ello.co/jayrosen/post/Ppg0VSUzxsy3mVNAQ9y5VA
+
