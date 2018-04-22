@@ -45,7 +45,7 @@ Build every component of PR2 - autocomplete, grading, filter, etc. However, for 
 How about adding a map showing the location of countries?
 * (10pt) Add a map above the table using [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/guide). Please read instructions and acquire your API key.
 * (5pt) Set the `width` to **500px** and `height` to **400px**.
-* (5pt) Set the `maptype` to **satellite** by referring to the [Devloper Guide](https://developers.google.com/maps/documentation/embed/guide).
+* (5pt) Set the `maptype` to **satellite** by referring to the [Developer Guide](https://developers.google.com/maps/documentation/embed/guide).
 * (10pt) Show the location of the country in the current question using the `q` parameter in the `iframe`'s `src`. If the game is asking the capital of *Easter Island*, include `q=Easter Island` in the `src`.
 * (10pt) When the user clicks on any country name in past entries or the question, update the map accordingly.
 * (10pt) When the user hovers on any country name, change the style of mouse `cursor` to **pointer** to provide clicking affordance.
