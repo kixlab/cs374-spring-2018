@@ -24,3 +24,7 @@ None
 # Post Class Notes
 TAs led the class with my slide deck.
 
+
+Team assignment
+- TAs prepare a matching spreadsheet by pre-assigning teams for each student.
+- 
