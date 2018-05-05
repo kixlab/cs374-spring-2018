@@ -3,8 +3,6 @@
 # Recap
 
 # Admin
-- nanoquiz: shoutkey.com/
-- DP4 update
 - Laptop policy
 - Remind MIT/Stanford in class again
 
@@ -92,7 +90,8 @@ Other sites to try?
 
 The last one is a good example of HTML5’s stroke representation, the canvas element. Most websites don’t use canvas.
 
-
+
+
 # Video Break
 Sutherland's SketchPad, with Alan Kay's narration
 
@@ -109,10 +108,51 @@ https://www.mprove.de/diplom/text/3.1.2_sketchpad.html#fig31
 
 ## Examine Widgets
 http://jqueryui.com/slider
+- Find the parts of its view tree
+
+- What CSS properties can change its appearance?
+position of the handle
+
+
+## Menu and Tabs
+menu with icons: where do the icons come from?
+- big icon image and custom position indicator for each icon style
+
+tabs: how are they drawn?
+- as list items (li)
 
 ## Explore HTML Canvas
-http://jsfiddle.net/oskar/GttyJ/https://jsfiddle.net/mcpanic/6k6bzhx6/## Explore Image Display
-http://jsfiddle.net/danieljackson/PqhW2/22/https://jsfiddle.net/mcpanic/yzvou52p/
+http://jsfiddle.net/oskar/GttyJ/
+https://jsfiddle.net/mcpanic/6k6bzhx6/
+
+What output representations are used here?
+- strokes for the most part
+
+Hide the minute marks by commenting-out one line
+- ctx.stroke() in the for loop that draws each minute mark.
+
+How do the hands of the clock “move”?
+- based on the current hms, the angle for rotation is determined.
+
+What's the point of save() and restore()?
+- maintains the default state before making custom changes.
+
+Flip the clock to show a mirror image
+-   ctx.scale(0.4,0.4); =>   ctx.scale(-0.4,0.4);
+
+## Explore Image Display
+http://jsfiddle.net/danieljackson/PqhW2/22/
+https://jsfiddle.net/mcpanic/yzvou52p/
+
+What output representations are used here?
+- mostly pixel
+
+How is transparency used?
+- changing the ballon's visibility level
+
+How can the user notice the bounding box of the balloon image?
+- Add something like "border: 5px solid black;" to CSS
+
 
 # Diff with Reading
 What representation do each of the following technologies use?
@@ -150,9 +190,8 @@ Students' overall understanding of the material seems pretty low for the materia
 
 Good to cover canvas code + examples
 
-Time was limited: didnt have time for jQuery UI part 2 and image rendering activities
-
 SketchPad was fine
+- But the video had serious volume issues. Also, no subtitle.
 
 Other examples not used:
 

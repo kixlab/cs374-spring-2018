@@ -359,7 +359,7 @@ Put simply, it's a rectangular array of pixels - but pixels themselves are not a
 Another kind of pixel representation uses each pixel value as an index into a palette, which is just a list of colors. In the 4-bpp representation, for example, each of the 16 possible pixel values represents a different color. This kind of representation, often called Indexed Color, was useful when memory was scarce; you still see it in the
 GIF file format, but otherwise it isn't used much today.
 
-The most common pixel representation is often called "true color" or "direct color.""  In this representation, each pixel represents a color directly. The color value is usually split up into multiple components: red, green, and blue. (Color components are also called **channels** or **bands**; the red channel of an image, for example, is a rectangular array of the red values of its pixels.)
+The most common pixel representation is often called "true color" or "direct color."  In this representation, each pixel represents a color directly. The color value is usually split up into multiple components: red, green, and blue. (Color components are also called **channels** or **bands**; the red channel of an image, for example, is a rectangular array of the red values of its pixels.)
 
 A pixel representation can be arranged in memory (or a file) in various ways: packed tightly together to save memory, or spread out loosely for faster access; with color components interleaved or separated; and scanned from the top (so that the top-left pixel appears first) or the bottom (the bottom-left pixel appearing first).
 
@@ -462,9 +462,9 @@ A final word about debugging the output of a graphical user interface, which can
 
 - **Wrong place:** what's the origin of the coordinate system? What's the scale? Where is the object located in its parent?
 
-- **Wrong size:** if an object has zero width and zero height, it will be completely invisible no matter what it tries to draw- everything will be clipped. **Zero width and zero height tend to be the defaults for primitive objects!** If you make a `div` or a `span` with nothing in it, it'll be zero width and height. You have to give it content, or manually set its size, to make it more reasonable size. Check whether the object (and its ancestors) have nonzero sizes.
+- **Wrong size:** if an object has zero width and zero height, it will be completely invisible no matter what it tries to draw - everything will be clipped. **Zero width and zero height tend to be the defaults for primitive objects!** If you make a `div` or a `span` with nothing in it, it'll be zero width and height. You have to give it content, or manually set its size, to make it more reasonable size. Check whether the object (and its ancestors) have nonzero sizes.
 
-- **Wrong color:** is the drawing using the same color as the background? Is it using 100% alpha, so that it's completely transparent?
+- **Wrong color:** is the drawing using the same color as the background? Is it using 0% alpha, so that it's completely transparent?
 
 - **Wrong z-order:** is something else drawing on top? 
 

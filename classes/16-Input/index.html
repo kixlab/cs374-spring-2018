@@ -136,7 +136,7 @@ On most systems, all events include the modifier key state, since some mouse ges
 
 The timestamp indicates when the input was received, so that the system can time features like autorepeat and double-clicking.  It is essential that the timestamp be a property of the event, rather than just read from the clock when the event is handled.  Events are stored in a queue, and an event may languish in the queue for an uncertain interval until the application actually handles it, so it's necessary for the time of the event to be captured as close to the event's actual occurrence (the press or release in the event object itself).
 
-Keyboard events can be trickier to handle than mouse events because identifying the key involved in the event is not always easy.  Particularly for cross-platform toolkits (HTML, Flash, Java), there may be a variety of different keyboard hardware with different sets of keys, and in HTML/Javascript, different browsers may work differently.  There is the further complication that translated key events (the "character typed" event) do not represent a **keystroke** (like Shift or PgUp or the A key), but rather a **character** (like "a" or "A" or "%").  Keystrokes are identified by physical keys on the keyboard; characters are identified by values in a character set (like Unicode or ASCII).  In jQuery, do not treat keydown/keyup and keypress as interchangeable; their names may be similar, but the parameters of the events are different.
+Keyboard events can be trickier to handle than mouse events because identifying the key involved in the event is not always easy.  Particularly for cross-platform toolkits (HTML, Flash, Java), there may be a variety of different keyboard hardware with different sets of keys, and in HTML/JavaScript, different browsers may work differently.  There is the further complication that translated key events (the "character typed" event) do not represent a **keystroke** (like Shift or PgUp or the A key), but rather a **character** (like "a" or "A" or "%").  Keystrokes are identified by physical keys on the keyboard; characters are identified by values in a character set (like Unicode or ASCII).  In jQuery, do not treat keydown/keyup and keypress as interchangeable; their names may be similar, but the parameters of the events are different.
 
 <div class="slide">
 <h1>Event Queue</h1>
@@ -205,7 +205,7 @@ If the target component has no handler for the event, the event propagates up th
 
 In many GUI toolkits, the event stops propagating automatically after reaching a component that handles it; none of that component's ancestors see the event.  Java Swing behaves this way; an event propagates up through the tree until it finds a component with at least one listener registered for the event, and then propagation stops automatically. (Note that this doesn't necessarily mean that only one listener sees the event.  The component that finally handles the event may have more than one listener attached to it, and all of those listeners will receive the event, in some arbitrary order.  But no listeners attached to components higher in the tree will see it.)
 
-In some toolkits, however, event propagation is under the control of the programmer, and events continue propagating up the tree unless explicitly stopped.  HTML/Javascript behaves this way, as does Adobe Flex.  In these toolkits, an event can be stopped by calling `stopPropagation()` on its event object.
+In some toolkits, however, event propagation is under the control of the programmer, and events continue propagating up the tree unless explicitly stopped.  HTML/JavaScript behaves this way, as does Adobe Flex.  In these toolkits, an event can be stopped by calling `stopPropagation()` on its event object.
 
 <div class="slide">
 <h1>Hit Testing and Event Propagation</h1>
@@ -220,7 +220,7 @@ First consider the green mouse cursor; suppose it just arrived at this point.  T
 Now consider the blue mouse cursor.  What component will be the initial target for a mouse-move event for this point?  The answer depends on how hit testing is done by the toolkit.  Some toolkits support only rectangular bounding-box hit testing, in which case Edge A-C (whose bounding box contains the mouse point) will be the event target.  Other toolkits allow hit testing to be overridden and controlled by components themselves, so that Edge A-C could test whether the point actually falls on (or within some small threshold of) the actual line it draws.  Java Swing  supports this by overriding `Component.contains()`.  If Edge A-C rejects the point, then the next component in z-order whose bounding box contains the mouse position is the window itself, so the event would be dispatched directly to the window.
 
 <div class="slide">
-<h1>Javascript Event Models</h1>
+<h1>JavaScript Event Models</h1>
 
 <ul>
 <li>Events propagate in different directions on different browsers
