@@ -4,17 +4,23 @@
 # Recap
 
 # Admin
-- nanoquiz: shoutkey.com/hot
-- DP5 
-- DP implementation notes + Q&A
+
 
 # UI HOFS
 
-Google (search) is an outstanding example of simplicity. Its interface is as simple as possible. Unnecessary features and hyperlinks are omitted, lots of whitespace is used. Google is fast to load and trivial to use.But maybe Google goes a little too far! Let’s take the perspective of a completely novice user coming to Google for the first time. What are the learnability obstacles to forming a mental model of what Google actually does and how to use it?What does Google actually do?  The front page doesn’t say.  What should be typed into the text box?  It has no caption at all.  
-The button labels are almost gibberish. “Google Search” isn’t meaningful English (although it’s gradually becoming more meaningful as Google enters the language as a noun, verb, and adjective).  And what does “I’m Feeling Lucky” mean?
-Where is Help?  Turns out it’s reachable from About Google, but the scent isn’t too strong for that.
-Although these problems would be easy for Google to fix, they are actually minor, because Google’s interface is simple enough that it can be learned by only a small amount of exploration.  (Except perhaps for the I’m Feeling Lucky button, which probably remains a mystery until a user is curious enough to hunt for the help.  After all, maybe it does a random choice from the search results!)
-Notice that Google does not ask you to choose your search domain first.  It picks a good default (web pages), includes a mix of results if they seem relevant (e.g. images & videos & maps too, not purely web pages), and makes it easy to change.## Alexa
+Google (search) is an outstanding example of simplicity. Its interface is as simple as possible. Unnecessary features and hyperlinks are omitted, lots of whitespace is used. Google is fast to load and trivial to use.
+
+But maybe Google goes a little too far! Let’s take the perspective of a completely novice user coming to Google for the first time. What are the learnability obstacles to forming a mental model of what Google actually does and how to use it?
+
+What does Google actually do?  The front page doesn’t say.  
+What should be typed into the text box?  It has no caption at all.  
+The button labels are almost gibberish. “Google Search” isn’t meaningful English (although it’s gradually becoming more meaningful as Google enters the language as a noun, verb, and adjective).  And what does “I’m Feeling Lucky” mean?
+Where is Help?  Turns out it’s reachable from About Google, but the scent isn’t too strong for that.
+Although these problems would be easy for Google to fix, they are actually minor, because Google’s interface is simple enough that it can be learned by only a small amount of exploration.  (Except perhaps for the I’m Feeling Lucky button, which probably remains a mystery until a user is curious enough to hunt for the help.  After all, maybe it does a random choice from the search results!)
+Notice that Google does not ask you to choose your search domain first.  It picks a good default (web pages), includes a mix of results if they seem relevant (e.g. images & videos & maps too, not purely web pages), and makes it easy to change.
+
+
+## Alexa
 
 What about for this kind of new technology? 
 
@@ -28,7 +34,7 @@ Today's reading is the first in a series about graphic design for graphical user
 
 We've made a point (earlier) that this course is focused on usability, but many of the guidelines in the upcoming readings are more about aesthetics than pure usability. Serious *mistakes* in graphic design certainly affect usability, however, so we're trying to help you avoid those pitfalls. There's also a phenomenon, sometimes called the Aesthetic Effect, that attractive user interfaces (like attractive people) are *perceived* as more usable, whether they are or not.
 
-But there's a larger question here: in practice, should software engineers have to learn this stuff at all? Shouldn't you just hire a graphic designer and let them do it? Some people think that the most important lesson a software engineer can learn from a course like 6.813 is "UI design is *hard*; leave it to the *experts*." The person who told me that was a high-level designer at Microsoft Research. I was tempted to retort that *designers* shouldn't bother learning to *program* either, but I don't actually believe that so I held my tongue.
+But there's a larger question here: in practice, should software engineers have to learn this stuff at all? Shouldn't you just hire a graphic designer and let them do it? Some people think that the most important lesson a software engineer can learn from an HCI course is "UI design is *hard*; leave it to the *experts*." The person who told me that was a high-level designer at Microsoft Research. I was tempted to retort that *designers* shouldn't bother learning to *program* either, but I don't actually believe that so I held my tongue.
 
 But there's some substance to the argument: a little knowledge can be a dangerous thing, and that a programmer with a little experience in UI design but too much self-confidence can be just as dangerous as an artist who's learned a little bit of HTML and thinks they now know how to program. But I prefer to believe that a little knowledge is a step on the road to greater knowledge. Some of you may decide to *become* UI designers, and this course is a step along that road.
 
@@ -43,6 +49,48 @@ Strive for simplicity
 - Regularize visual properties that aren’t important
 - Make elements perform double-duty
 
+## Regularity
+
+- Pinterest
+- Alignment icons
+
+The uniform column width of grid layouts (like Pinterest shown here, in which the grid is very visible) is another common kind of regularity.
+
+Inessential elements are regularized (same size, font, color, etc.) so that essential elements are emphasized through irregularity.
+
+## Data Scales
+
+- nominal, ordinal, quantitative
+
+- Location: LAT 33.98, LONG -118.45 (Q)
+- Fruits: Apples, oranges, melons, … (N)
+- Dates: 20170502 (Q)
+- Quality of meat: Grade A, AA, AAA (O)
+- Length, Mass, Temperature (Q)
+
+## Position vs Size example
+
+- Circles (size) are harder than bar charts (position)
+
+## Napoleon
+
+Describes Napoleon’s March to Moscow in “The War of 1812”
+Drawn in 1861 by Charles Joseph Minard.
+
+Combination of a map and a time series. Five variables are plotted: location, time, size and temperature (Tufte includes direction).
+
+Beginning at the left of the map is Polish-Russian border near the Neiman River. The Thick band shows the number of soldiers in the army.
+
+Napoleon started with 422,000 men in June of 1812; 
+100,000 reached Moscow in September 1812;
+
+Temperature vs. time is shown in the graph on the bottom. The highest temperature is 0 and it goes to -30. The time runs from October on the right to December on the left.
+
+The crossing of the Berezina River was a particular disaster.
+
+Image from http://www.edwardtufte.com/tufte/minard
+Text paraphrased from Tufte, VDQI, p 40.
+
 
 # Contrast
 
@@ -50,12 +98,16 @@ Strive for simplicity
 
 Ask these questions:
 
-find all the letters on the left edge of the page (position)
-find all the red letters (hue)
-find all the K’s (shape)
-Which of these questions felt easy to answer, and which felt hard? The easy ones were selective visual variables.
+- find all the letters on the left edge of the page (position)
+- find all the red letters (hue)
+- find all the K’s (shape)
+
+- Which of these questions felt easy to answer, and which felt hard? The easy ones were selective visual variables.
+
+- Position and hue are selective variables: the degree to which a single level of the variable can be selected from the entire visual field. 
 
 ## Visual variables in text
+
 upper left (boldface = value) and lower right (size) pop out. upper right (different font face) and lower left (italics) don’t. They rely too strongly on shape.
 
 ## My Movies
@@ -90,7 +142,8 @@ get these on the board in the course of critiquing examples
 
 Asymmetric typography
 
-1) feels more dynamic (energy to the type),  2) don’t have difficult to read narrow columns around the figures.
+1) feels more dynamic (energy to the type),  2) don’t have to read narrow columns around the figures.
+
 
 # Diff with Reading
 
