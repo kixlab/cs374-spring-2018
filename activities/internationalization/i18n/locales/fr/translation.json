@@ -1,6 +1,8 @@
 {
   "title": "Liste d'épicerie",
   "instructions": "Essayer de faire les courses chez __store__",
+  "date": "La date",
+  "price": "Le prix",
   "items": {
     "apple" : "__count__ pomme",
     "apple_plural": "__count__ pommes",

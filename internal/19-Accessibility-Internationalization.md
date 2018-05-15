@@ -4,7 +4,6 @@
 # Recap
 
 # Admin
-- nanoquiz: shoutkey.com/because
 
 
 
