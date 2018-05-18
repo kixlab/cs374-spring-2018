@@ -16,18 +16,20 @@ What does Google actually do?  The front page doesn’t say.
 What should be typed into the text box?  It has no caption at all.  
 The button labels are almost gibberish. “Google Search” isn’t meaningful English (although it’s gradually becoming more meaningful as Google enters the language as a noun, verb, and adjective).  And what does “I’m Feeling Lucky” mean?
 Where is Help?  Turns out it’s reachable from About Google, but the scent isn’t too strong for that.
+
 Although these problems would be easy for Google to fix, they are actually minor, because Google’s interface is simple enough that it can be learned by only a small amount of exploration.  (Except perhaps for the I’m Feeling Lucky button, which probably remains a mystery until a user is curious enough to hunt for the help.  After all, maybe it does a random choice from the search results!)
 Notice that Google does not ask you to choose your search domain first.  It picks a good default (web pages), includes a mix of results if they seem relevant (e.g. images & videos & maps too, not purely web pages), and makes it easy to change.
 
+- Learned vs first time users. We are already a bit "too familiar" with what search engines do and how the algorithm kind of works. 
 
 ## Alexa
 
 What about for this kind of new technology? 
 
-# Nanoquiz
+# Nanoquiz (4:11)
 
 
-# Visual Design
+# Visual Design (4:15)
 Why?
 
 Today's reading is the first in a series about graphic design for graphical user interfaces, and I want to explain why we're doing this.
@@ -122,12 +124,15 @@ Here’s another example showing how redundant encoding can make an information 
 Take a lesson from this: your program’s output displays do not have to be arranged like input forms. When data is self-describing, like names and dates, let it describe itself. (This is yet another example of the double duty technique for achieving greater simplicity – data is acting as its own label.) And choose good visual variables to enhance the contrast of information that the user needs to see at a glance.
 
 
-# Video Break
+# Activity (4:44)
+
+# Video Break (4:53)
+
 Hans Rosling's Gapminder
 
-Brief overview of Infoviz: definition and goals
+- Brief overview of Infoviz: definition and goals
 
-# Layout
+# Layout (4:58)
 
 get these on the board in the course of critiquing examples
 
@@ -144,6 +149,9 @@ Asymmetric typography
 
 1) feels more dynamic (energy to the type),  2) don’t have to read narrow columns around the figures.
 
+# Activity (5:04)
+
+===
 
 # Diff with Reading
 

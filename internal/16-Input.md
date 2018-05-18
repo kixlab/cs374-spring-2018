@@ -19,10 +19,10 @@ One thing Office 12’s developers did very effectively is task analysis.  In fa
 Office 2007 also provides more feedback about what a command will do, by showing a preview of its effect right in the document while you’re mousing over the command.  So if you hover over the Heading 2 option, your document will reformat to show you what the selection would look like with that new style.  As long as your computer is fast enough to do it within 100ms, this would be a tremendous improvement to the visibility and feedback of the interface.
 
 
-# Nanoquiz
+# Nanoquiz (4:13)
 
 
-# Q1: Mouse Input
+# Q1: Mouse Input (4:17)
 
 Have students answer the clicker question first (20 seconds), then discuss and try it
 
@@ -41,7 +41,7 @@ When does two clicks on A fail to produce a double-click event?
 - when the time interval between the two clicks is too long.
 
 
-# Q2: Keyboard Input
+# Q2: Keyboard Input (4:27)
 
 Again, have students answer the clicker question first (20 seconds), then discuss and try it
 
@@ -70,7 +70,7 @@ If you hold down a letter key, what events do you expect to see?
 - repeating (down-press) until up is registered.
 
 
-# Q3: Event Propagation
+# Q3: Event Propagation (4:35)
 
 Again, have students answer the clicker question first (20 seconds), then discuss and try it
 

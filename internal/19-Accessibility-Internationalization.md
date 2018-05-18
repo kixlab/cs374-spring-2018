@@ -1,7 +1,8 @@
-# 20-Accessibility-Internationalization
+# 19-Accessibility-Internationalization
 
 
 # Recap
+A lot of the discussion so far has been about understanding users' capabilities and limitations, and designing solutions that adapt to them. But we kind of assumed that all users have average and homogeneous human abilities. Today is about more extreme and diverse users.
 
 # Admin
 
@@ -54,10 +55,10 @@ Refs
 - http://gizmodo.com/las-new-parking-signs-are-brilliant-and-every-city-shou-1695594041
 
 
-# Nanoquiz
+# Nanoquiz (4:11)
 
 
-# Accessibility
+# Accessibility (4:15)
 - Accessibility is a universal problem
 - Support alternative input (e.g., keyboards)
 - Support alternative output (e.g., screen readers)
@@ -66,11 +67,27 @@ Refs
 
 - Best practices for web accessibility
 
-## Activity: Explore assistive technology
+## Activity: Explore assistive technology (4:20)
 5 mins
 
+- sip & puff: talk about design dimensions for precision of the interface, e.g., length of sipping and puffing, direction (sip or puff), strength. 
+
+- tongue interface: fun example to talk about. 9 areas are reasonable. 16? 25?
+
 # Video Break
-Vizwiz / Vislens
+
+https://www.youtube.com/watch?v=TiP7aantnvE
+
+Show how blind people use digital devices in their real life.
+Play from 1:48 - 3:20
+
+(optional): https://www.youtube.com/watch?v=UzffnbBex6c
+
+Vizwiz
+https://www.youtube.com/watch?v=solWTf_KDXI
+
+Vislens
+https://www.youtube.com/watch?v=Wy0656j2eig
 
 # Internationalization
 
@@ -86,12 +103,15 @@ Vizwiz / Vislens
 - Formatting of number, date, currency
 - Photos
 
-
-## Activity: Internalization 
-10 mins
-
 - high quality translation can be tricky
     - requires native speakers in both languages, plus a bilingual who does the translation, if you outsource.
+
+
+## Activity: Internalization (4:38)
+3 + 10 mins
+
+3 min walk-through of the task: this exercise needs some pre-explanation. walking through the title example was useful.
+
 
 
 ## People's system usage can be affected. 
@@ -106,9 +126,10 @@ Vizwiz / Vislens
 - Browser usage stats
 
 
-## Activity: Cultural Comparison 
+## Activity: Cultural Comparison (5:02)
 20-25 mins
 
+- no time for step 2: could be shared after class for student's analysis or even next class.
 
 ### Hofstede's cultural dimensions theory
 - Let's try to conduct our own experiment looking at cultural differences.
@@ -132,11 +153,14 @@ Vizwiz / Vislens
 ### Part 1. Explore. (8 mins)
 
 
-### Part 2. Synthesize. (5 mins)
+### Part 2. Synthesize. (5 mins) skipped
 
+- after class, do some analysis. e.g., "Analyzed" sheet in https://docs.google.com/spreadsheets/d/1U7F5Y0fg3O5WKW0_TK_T3XAZjUEqonVvdUc09yFBL7A/edit#gid=220833591
+- try to show some meaningful differences on some dimensions. e.g., Malaysis vs Austria (power distance) in num of faculty or students in photos, num of men or women in photos.
 
-### Part 3. Compare. (5 mins)
+### Part 3. Compare. (5 mins) 5:10, 3 mins, 5 mins desired.
 
+- but be aware that students lose access to their results upon submitting stage 1 results.]
 
 ### Discussion in class (3 mins)
 Any interesting observations?

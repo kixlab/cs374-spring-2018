@@ -3,12 +3,15 @@
 
 # Recap
 
+- show student HOFs from the visual design and layout activities
+
 # Admin
 
 
 # UI HOFS
 Google Drive
 
+- great evample connecting to some of the core concewpts in class
 
 Google Drive is an online storage, where you can store documents, photos, etc.It takes a desktop file manager metaphor for web documents and folders that are synchronized across all shared users. A design challenge is in combining the familiar desktop file management language with the online sharing language.
 
@@ -45,10 +48,10 @@ Consider the web interface for Google Drive. Analyze its usability with respect 
 - Color
     - Gray background in the sidebar visually separates it from the main panel
 - Font
-    - "Roboto" vs default Sans-serif
+    - "Roboto" vs default Sans-serif (kerning is more generous in Roboto)
 
 
-# Nanoquiz
+# Nanoquiz (4:18)
 
 
 # Meta Point
@@ -105,17 +108,19 @@ Apple's iMac G3 was released in a total of 13 different "flavors," making it one
 ## Lab in the Wild blog
 skipped
 
-## Activity: Evaluate
-8 mins
+## Activity: Evaluate (4:37)
+1 min instruction, 7 min activity
 
-## Activity: Improve
-8-10 mins
+- tell students to not use websites that are primarily image-based
 
+## Activity: Improve (4:45)
+3 min instruction, 7 min activity
+show a live demo of how to use inspector to change CSS
 
 # Video Break
 nothing
 
-# Typography
+# Typography (4:58)
 
 ## Factors that matter
 
@@ -146,6 +151,7 @@ play from 0:27 to the end
 
 ## Speed Reading
 http://squirt.io/
+
 Alternatives
 
 - http://www.mikeprescott.net/ReadIt.html
@@ -166,14 +172,14 @@ RSVP: Rapid Serial Visual Presentation (RSVP) is a method used by most of the re
 
 http://lifehacker.com/the-truth-about-speed-reading-1542508398
 
-## Activity: Improve Readability
+## Activity: Improve Readability (5:10)
 
 5-6 mins
 
 - ask for size and weight suggestions first
 - play with width and line-height showing good and bad
 - ask for font faces
-
+- point to goolge fonts or other refs that might be useful in font selection
 
 
 # Diff with Reading

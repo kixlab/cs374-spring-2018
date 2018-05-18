@@ -36,7 +36,7 @@ The big red Add To Order button makes an important action clearly visible.  It�
 
 
 
-# Nanoquiz
+# Nanoquiz (4:22)
 
 
 # So far... 
@@ -58,7 +58,7 @@ GUI toolkit intro
 ## Photoshop Puzzle
 Rasterization converts from stroke to pixels. Why is it no longer editable?
 
-## Play with Websites
+## Play with Websites (4:29)
 
 Go to various web sites with the class following along. What text is object, what is stroked, and what is pixel?
 
@@ -90,7 +90,7 @@ Other sites to try?
 
 The last one is a good example of HTML5’s stroke representation, the canvas element. Most websites don’t use canvas.
 
-
+# Case study of HTML5 Canvas
 
 # Video Break
 Sutherland's SketchPad, with Alan Kay's narration
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=kzDpfk8YhlE
 https://www.mprove.de/diplom/text/3.1.2_sketchpad.html#fig31
 
 
-# Activities
+# Activities (4:44)
 
 ## Examine Widgets
 http://jqueryui.com/slider
@@ -121,9 +121,10 @@ menu with icons: where do the icons come from?
 tabs: how are they drawn?
 - as list items (li)
 
-## Explore HTML Canvas
-http://jsfiddle.net/oskar/GttyJ/
-https://jsfiddle.net/mcpanic/6k6bzhx6/
+## Explore HTML Canvas (5:00)
+
+- http://jsfiddle.net/oskar/GttyJ/
+- https://jsfiddle.net/mcpanic/6k6bzhx6/
 
 What output representations are used here?
 - strokes for the most part
@@ -140,9 +141,10 @@ What's the point of save() and restore()?
 Flip the clock to show a mirror image
 -   ctx.scale(0.4,0.4); =>   ctx.scale(-0.4,0.4);
 
-## Explore Image Display
-http://jsfiddle.net/danieljackson/PqhW2/22/
-https://jsfiddle.net/mcpanic/yzvou52p/
+## Explore Image Display (5:10)
+
+- http://jsfiddle.net/danieljackson/PqhW2/22/
+- https://jsfiddle.net/mcpanic/yzvou52p/
 
 What output representations are used here?
 - mostly pixel

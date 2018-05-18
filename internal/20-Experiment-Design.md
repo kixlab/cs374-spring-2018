@@ -1,12 +1,9 @@
-# 22-Experiment Design
+# 20-Experiment Design
 
 
 # Recap
 
 # Admin
-- nanoquiz: shoutkey.com/
-- DP6 update
-- DP7 update
 
 
 # UI HOFS
@@ -57,11 +54,11 @@ Findlater & McGrenere: compared split menus that were static (unchanging), adapt
 - Personal history + Group history
 
 
-# Nanoquiz
+# Nanoquiz (4:19)
 
 
-# Research Methods in HCI
-5 mins
+# Research Methods in HCI (4:22)
+3 mins
 
 The picture shows how these methods compare on several interesting dimensions. In the vertical dimension, lab experiments often use highly abstract tasks, which are simplified and highly controlled in order to make strong statistical claims, but also farther removed from the real-world. An example is the classic Fitts’s Law experiment, which measures the time it takes to hit targets on the screen by using plain rectangles rather than realistic pointing targets like buttons, menus, and hyperlinks. Field studies and surveys, by contrast, can use more concrete, real-world examples.
 
@@ -71,46 +68,24 @@ Finally, the picture also shows how the three methods compare on three criteria 
 
 (This picture actually omits one important class of methods, which is occasionally but not widely used in HCI research: a theoretical model or computer simulation of human behavior. We talked about some theoretical models for HCI, like KLM and GOMS, in the efficiency reading.)
 
-# Controlled Experiments
+
+# Controlled Experiments (4:23)
 5 mins
 
 - How to convince others? systematic UI evalution
 - Ask questions about the core concepts
 - Look at an actual example from a paper?
  
+# Case study: Hofstede cultural dimensions study (4:30)
+7 mins
+
+- discuss the hypothesis / IV / DV
+- show the real data collected from students in the prev class
+- 
 
 
-# Activity: Sampling
-8 mins
-
-https://docs.google.com/forms/d/e/1FAIpQLSfi2cLjTO2dAjZ_oaPnQfIQXTjCwjMKNb_3tC1aIKasKOnlNA/viewform?usp=sf_link
-## Section division / Data Collection (2 mins)
-- Divide the room into three quadrants (A, B, C).
-- Students fill out the form.
-
-## Activity 
-(1 min: show results, 2 mins with a partner, 3 mins group discussion)
-
-- Instructor shows the quadrant distributions to the whole class in the spreadsheet. Make sure "Sheet2" is pre-loaded with all the right formula.
-
-- What might cause the distribution of demographics in different parts of the room to be different from the overall class population?
-    - Friends sitting next to each other
-
-- What may be some of the dangers of using a non-representative sample?
-    - If only section A people were recruited in a survey about student attitudes towards some aspect of this class?
-    - Sampling bias
-
-- What if you ran an experiment with each section assigned to different conditions?
-    - Depending on how good section division is, randomization is compromised.
-    - Selection bias
-
-- What'd be a better way to divide into sections?
-    - Use KAIST ID modulo 3?
-    - Random draw?
-
-
-# Video Break
-10 mins
+# Video Break (4:37)
+7 mins
 
 Pre-touch sensing for mobile interaction
 
@@ -118,11 +93,15 @@ https://www.youtube.com/watch?v=fiZkEYLXctE
 
 Discuss evaluating this interaction technique
 
-# Threats to Validity
+# Threats to Validity (4:44)
 5 mins
 
-# Activity: Typing Game
-20-25 mins
+# Activity: Typing Game (4:51)
+20 mins
+
+https://kixlab.org/courses/cs374-spring-2018/activities/experiment-design/activity.html
+
+At the end there's the google doc. Make sure to update it to the new year.
 
 ### Pre-Experiment 
 2 mins
@@ -174,7 +153,7 @@ Discuss evaluating this interaction technique
     - Experimenter bias: biased toward one condition?
 
 - External validity: will the result hold beyond this particular run?
-    - Population: random sample? gender? MIT students in a CS class, highly skewed.
+    - Population: random sample? gender? KAIST students in a CS class, highly skewed.
     - Ecological: How realistic was the setting? Using your laptop vs other's (or the one in the lab)
     - Training: mimicked the real experience well?
     - Task: realistic task users are likely to run into?
@@ -183,6 +162,43 @@ Discuss evaluating this interaction technique
     - User differences: skill level, motor capability
     - Measurement error: time on task accurate? 10 words per set, time diff within the set?
     - Repetition: enough repetitions? but fatigue can be an issue.
+
+
+
+===
+
+# Not used
+
+
+# Activity: Sampling
+8 mins
+
+https://docs.google.com/forms/d/e/1FAIpQLSfi2cLjTO2dAjZ_oaPnQfIQXTjCwjMKNb_3tC1aIKasKOnlNA/viewform?usp=sf_link
+
+## Section division / Data Collection (2 mins)
+- Divide the room into three quadrants (A, B, C).
+- Students fill out the form.
+
+## Activity 
+(1 min: show results, 2 mins with a partner, 3 mins group discussion)
+
+- Instructor shows the quadrant distributions to the whole class in the spreadsheet. Make sure "Sheet2" is pre-loaded with all the right formula.
+
+- What might cause the distribution of demographics in different parts of the room to be different from the overall class population?
+    - Friends sitting next to each other
+
+- What may be some of the dangers of using a non-representative sample?
+    - If only section A people were recruited in a survey about student attitudes towards some aspect of this class?
+    - Sampling bias
+
+- What if you ran an experiment with each section assigned to different conditions?
+    - Depending on how good section division is, randomization is compromised.
+    - Selection bias
+
+- What'd be a better way to divide into sections?
+    - Use KAIST ID modulo 3?
+    - Random draw?
+
 
 
 # Diff with Reading
@@ -195,5 +211,5 @@ Discuss evaluating this interaction technique
 - many students were confused about IVs: tasks (words) are not IVs, they are repetitions to get reliable results. the manipulation is related to the hypothesis -- what you want to show the difference "of".
 - question wording was confusing to some students (last question in the game form -- one about the potential bias coming from the initial expectation of how the experiment result would be)
 - section survey: The spreadsheet for the classroom area experiment is not reliable.  If you test it, and then delete all your test data responses, it breaks the formulas so that they show #REF (circular dependency) in class.  Find a more reliable way to do the calculations. When I pressed Enter key, however, the formula worked, and we did get the results successfully.
-
-
+- Nanoquiz: many students asked what the meaning of "obtrusive" is.
+- Reduce the conceptual explanation. Shorten them dramatically. Do more activities.
