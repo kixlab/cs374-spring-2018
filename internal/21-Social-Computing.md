@@ -4,35 +4,42 @@
 # Recap
 
 # Admin
-- nanoquiz: shoutkey.com/never
 
 
 
 # UI HOFS
+Amazon's review pages
+- talk specifically about social features
+
+# Nanoquiz (4:13)
 
 
-# Nanoquiz
+# Overview (4:16)
+
+- meant to be a high level overview of some of the important topics of interest these days
 
 
 # Social Computing
 
-## Definition
 
-## Example: Amazon product review
+## Definition
 
 ## The Matrix + Examples
 
-## Activity: Find Social Cues
+## Activity: Find Social Cues (4:29)
 
 
-# Video Break
-none
+# Video Break (4:35)
+Filter Bubble TED talk 
+- https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles
 
-# Interaction at Scale
+
+# Interaction at Scale (4:45)
 - motivation
 - active
 - passive
 
+## Activity: Analyze a discussion (no time)
 
 
 # Diff with Reading
@@ -40,4 +47,6 @@ none
 
 # Post Class Notes
 
+- no time for the discussion analysis: maybe do it in the HCI-AI class
+- add more interactivity, especially at the 2nd half (interaction at scale)
 
