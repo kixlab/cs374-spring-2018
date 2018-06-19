@@ -117,19 +117,19 @@
                     <h1>Awards</h1>
 
                     <h3>People's Choice Award</h3>
-                    <a href="#more_mappingtheworld">Mapping the World</a>
+                    <a href="#panel_mappingtheworld">Mapping the World</a>
 
                     <h3>Most Human-Centered Award</h3>
-                    <a href="#more_hellocampol">HelloCampol</a>
+                    <a href="#panel_hellocampol">HelloCampol</a>
 
                     <h3>Most Extreme User Award</h3>
-                    <a href="#more_dydi">DYDI</a>
+                    <a href="#panel_dydi">DYDI</a>
 
                     <h3>Best Implementation Award</h3>
-                    <a href="#more_chordplay">ChordPlay</a>
+                    <a href="#panel_chordplay">ChordPlay</a>
 
                     <h3>Most Creative Award</h3>
-                    <a href="#more_self-explanatory">Self-Explanatory</a>
+                    <a href="#panel_self-explanatory">Self-Explanatory</a>
 
                 </div>
                 <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>
@@ -146,7 +146,7 @@
     <div>
       <div v-for="(team, index) in teams" class="row">
         <div class="col-md-12">
-          <div class="well" :id="'more_' + team.name.replace(/\s/g, '').toLowerCase()">
+          <div class="well" :id="'panel_' + team.name.replace(/\s/g, '').toLowerCase()">
             <h1>{{ team.name }}</h1>
             <h4>{{ team.members.join(", ") }}</h4>
             <p>{{ team.description }}</p>
@@ -165,7 +165,7 @@
     <script src="https://unpkg.com/vue"></script>
 
     <script>
-        var projects = [
+        var projects2018 = [
             {
                 name: "Rothaus",
                 members: ["Taeyoon Kim", "Phua Shu Xuan", "Jinhyeon Kim", "Matthieu Maurice Theurer"],
@@ -241,7 +241,7 @@
             }, {
                 name: "Babmutna",
                 members: ["Jihun Ko", "Jaeho Moon", "Suho Park", "JeongHo Ha"],
-                description: "Cook scheduling",
+                description: "Cook scheduling for Pakistanis at KAIST",
                 slideURL: "https://drive.google.com/open?id=1FjqjKE7nu3lSKTrcC5KoFiKwRVevmdU6Bl3tReRY1UI",
                 videoURL: ""
             }, {
@@ -273,7 +273,7 @@
             el: "#teams",
             template: "#template",
             data: {
-                teams: projects
+                teams: projects2018
             },
             computed: {
                 videoIds: function () {
