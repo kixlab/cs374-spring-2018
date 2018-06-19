@@ -115,7 +115,9 @@
                     <li>
                         <a href="logistics.html">Class Logistics</a>
                     </li>
-                    <!-- <li><a href="gallery.html">Project Gallery</a></li> -->
+                    <li>
+                        <a href="gallery.html">Project Gallery</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -132,9 +134,15 @@
                         <li>
                             <a href="#hw1">Homework 1: UI Hall of Fame and Shame</a>
                         </li>
-                        <li><a href="#pr1">Programming 1</a></li>
-                        <li><a href="#pr2">Programming 2</a></li>
-                        <li><a href="#pr3">Programming 3</a></li>
+                        <li>
+                            <a href="#pr1">Programming 1</a>
+                        </li>
+                        <li>
+                            <a href="#pr2">Programming 2</a>
+                        </li>
+                        <li>
+                            <a href="#pr3">Programming 3</a>
+                        </li>
                         <!-- <li><a href="#hw2">Homework 2: Heuristic Evaluation</a></li> -->
                     </ul>
                 </div>
@@ -195,7 +203,8 @@
                                     required components listed above in your report.</li>
                                 <li>
                                     <strong>Depth (20%)</strong>: Include thoughtful analysis of usability, beyond surface level
-                                    observations.</li>
+                                    observations.
+                                </li>
                                 <li>
                                     <strong>Clarity (20%)</strong>: The reader who sees the example for the first time should not
                                     struggle to understand your points.</li>
@@ -203,10 +212,12 @@
                                     <strong>Visual Communication (20%)</strong>: Use visual materials effectively to communicate
                                     your idea. Add annotations and labels to refer to specific elements in an image. Include
                                     zoom-in images if needed. Make sure your text and accompanying visuals complement each
-                                    other.</li>
+                                    other.
+                                </li>
                                 <li>
                                     <strong>Conciseness (20%)</strong>: Adhere to the word limit, and avoid being verbose in the
-                                    description.</li>
+                                    description.
+                                </li>
                             </ul>
 
                             Please make sure to read the
@@ -702,11 +713,12 @@
                 });
             }
 
-            $(".markdown").each(function() {
+            $(".markdown").each(function () {
                 var markdownURL = $(this).data("markdown")
                 renderMarkdown(markdownURL, $(this))
             })
         });
     </script>
 </body>
+
 </html>
